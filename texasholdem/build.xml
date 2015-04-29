@@ -80,7 +80,7 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-    <target name="Main">
+    <target depends="build" name="Main">
         <java classname="org.ozsoft.texasholdem.gui.Main" failonerror="true" fork="yes">
             <classpath refid="TexasHoldEm.classpath"/>
         </java>
