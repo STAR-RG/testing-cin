@@ -24,4 +24,14 @@ public class BinarySearchTest {
 	assertThat(BinarySearch.binarySearch(a, 15), is(lessThan(0)));
     }
 
+    @Test
+    public void emptyArray() {
+	assertThat(BinarySearch.binarySearch(new int[]{}, 99), is(lessThan(0)));
+    }
+
+    @Test(expected=NullPointerException.class)
+    public void nullArray() {
+	BinarySearch.binarySearch(null, 99);
+    }
+
 }
