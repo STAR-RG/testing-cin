@@ -13,7 +13,7 @@ use the gradle build system.<br>
 &nbsp;&nbsp;&nbsp;junit4: median<br>
 </p>
 
-<p><b>Test Suite Quality (Coverage and Mutation)</b><br>
+<p><b>Test Suite Quality (coverage and mutation)</b><br>
 &nbsp;&nbsp;&nbsp;jacoco: doublelinkedlist<br>
 &nbsp;&nbsp;&nbsp;pit: triangle<br>
 </p>
@@ -21,7 +21,6 @@ use the gradle build system.<br>
 <p><b>Fluent Assertions</b><br>
 &nbsp;&nbsp;&nbsp;hamcrest: binarysearch<br>
 </p>
-
 
 <p><b>GUI Testing</b><br>
 &nbsp;&nbsp;&nbsp;assertj+swing: calc<br>
