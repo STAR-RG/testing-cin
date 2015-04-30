@@ -27,12 +27,16 @@ use the gradle build system.<br>
 &nbsp;&nbsp;&nbsp;selenium: ??<br>
 </p>
 
+Enjoy,<br>
+Marcelo
+
+<hr>
+
 Useful Links: 
 <ul>
 <a href="http://www.wei-wang.com/ExplainGitWithD3/#">Visualize Git concepts</a>
 </ul>
 
-Enjoy,<br>
-Marcelo
+
 
 
