@@ -1,21 +1,22 @@
 # testing-cin
 
-List of (mostly for Java) tools and directories with code that shows how to apply these
-tools.
+List of tools we see in this course, grouped by category.  For
+example, you will find in directory "binarysearch" an example on how
+to use the gradle build system.<br>
 
 <p><b>Build Systems</b><br>
-ant: texasholdem<br>
-gradle: binarysearch<br>
+&nbsp;ant: texasholdem<br>
+&nbsp;gradle: binarysearch<br>
 </p>
 
 <p><b>Test Execution</b><br>
-junit4: binarysearch<br>
-hamcreset: binarysearch<br>
+&nbsp;junit4: binarysearch<br>
+&nbsp;hamcreset: binarysearch<br>
 </p>
 
 <p><b>Test Suite Quality (Coverage and Mutation)</b><br>
-jacoco: doublylinkedlist<br>
-pit: triangle<br>
+&nbsp;jacoco: doublylinkedlist<br>
+&nbsp;pit: triangle<br>
 </p>
 
 selenium: ??
