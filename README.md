@@ -20,11 +20,11 @@ to use the gradle build system.<br>
 </p>
 
 <p><b>GUI Testing</b><br>
-assertj+swing: calc
-selenium: ??
+&nbsp;&nbsp;&nbsp;assertj+swing: calc<br>
+&nbsp;&nbsp;&nbsp;selenium: ??<br>
 </p>
 
-Enjoy,
+Enjoy,<br>
 Marcelo
 
 
