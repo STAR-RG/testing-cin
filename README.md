@@ -3,17 +3,17 @@
 List of (mostly for Java) tools and directories with code that shows how to apply these
 tools.
 
-<p>Build Systems<br>
+<p><b>Build Systems</b><br>
 ant: texasholdem<br>
 gradle: binarysearch<br>
 </p>
 
-<p>Test Execution
+<p><b>Test Execution</b><br>
 junit4: binarysearch<br>
 hamcreset: binarysearch<br>
 </p>
 
-<p>Test Suite Quality (Coverage and Mutation)
+<p><b>Test Suite Quality (Coverage and Mutation)</b><br>
 jacoco: doublylinkedlist<br>
 pit: triangle<br>
 </p>
