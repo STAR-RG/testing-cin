@@ -19,8 +19,10 @@ to use the gradle build system.<br>
 &nbsp;&nbsp;&nbsp;pit: triangle<br>
 </p>
 
+<p><b>GUI Testing</b><br>
+assertj+swing: calc
 selenium: ??
-fest: ???
+</p>
 
 Enjoy,
 Marcelo
