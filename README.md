@@ -7,6 +7,10 @@ ant: texasholdem<br>
 gradle: binarysearch<br>
 junit4: binarysearch<br>
 hamcreset: binarysearch<br>
+pit: triangle<br>
+emma: ???
+selenium: ??
+fest: ???
 
 Enjoy,
 Marcelo
