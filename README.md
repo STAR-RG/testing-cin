@@ -11,7 +11,7 @@ to use the gradle build system.<br>
 
 <p><b>Test Execution</b><br>
 &nbsp;&nbsp;&nbsp;junit4: binarysearch<br>
-&nbsp;&nbsp;&nbsp;hamcreset: binarysearch<br>
+&nbsp;&nbsp;&nbsp;hamcrest: binarysearch<br>
 </p>
 
 <p><b>Test Suite Quality (Coverage and Mutation)</b><br>
