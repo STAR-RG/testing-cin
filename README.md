@@ -19,7 +19,7 @@ use the gradle build system.<br>
 </p>
 <p>Mutation<br>
 &nbsp;&nbsp;&nbsp;pit: triangle<br>
-</t>
+</p>
 </p>
 
 <p><b>Fluent Assertions</b><br>
