@@ -13,9 +13,13 @@ use the gradle build system.<br>
 &nbsp;&nbsp;&nbsp;junit4: median<br>
 </p>
 
-<p><b>Test Suite Quality (coverage and mutation)</b><br>
+<p><b>Test Suite Quality</b><br>
+<p>Coverage<br>
 &nbsp;&nbsp;&nbsp;jacoco: doublelinkedlist<br>
+</p>
+<p>Mutation<br>
 &nbsp;&nbsp;&nbsp;pit: triangle<br>
+</t>
 </p>
 
 <p><b>Fluent Assertions</b><br>
