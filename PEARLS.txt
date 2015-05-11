@@ -1,0 +1,11 @@
+1. Version control
+
+...
+Visualize Git concepts: http://www.wei-wang.com/ExplainGitWithD3/#
+
+
+2. Programming practices
+
+...
+
+3. How to (not) write a bug report

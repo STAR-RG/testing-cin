@@ -28,19 +28,15 @@ use the gradle build system.<br>
 
 <p><b>GUI Testing</b><br>
 &nbsp;&nbsp;&nbsp;assertj+swing: calc<br>
-&nbsp;&nbsp;&nbsp;selenium: ??<br>
+&nbsp;&nbsp;&nbsp;selenium: selenium-ide<br>
+</p>
+
+<p><b>Load Testing</b><br>
+&nbsp;&nbsp;&nbsp;JMeter: ???<br>
 </p>
 
 Enjoy,<br>
 Marcelo
-
-<hr>
-
-Useful Links: 
-<ul>
-<a href="http://www.wei-wang.com/ExplainGitWithD3/#">Visualize Git concepts</a>
-</ul>
-
 
 
 
