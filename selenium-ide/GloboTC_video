@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://www.globo.com/" />
-<title>GloboTC_login</title>
+<title>GloboTC_video</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">GloboTC_login</td></tr>
+<tr><td rowspan="1" colspan="3">GloboTC_video</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -18,24 +18,30 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>css=#barra-item-login &gt; div.no-show.small</td>
+	<td>id=busca-campo</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=login-passaporte</td>
-	<td>maluco</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=senha-passaporte</td>
-	<td>beleza</td>
+	<td>id=busca-campo</td>
+	<td>Neymar</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>id=submit-form</td>
+	<td>css=button[type=&quot;submit&quot;]</td>
 	<td></td>
 </tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.busca-link-url &gt; img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>_self</td>
+	<td>30000</td>
+</tr>
+
 </tbody></table>
 </body>
 </html>
