@@ -1,0 +1,38 @@
+<div>
+	<h1 class="text-center uppercase">Calculadora {{calculator.name}}</h1>
+	<div class="operations">
+		<h4 class="text-center">OPERAÇÕES</h4>
+		<ul>
+			<li ng-repeat="operation in calculator.operations" ng-click="loadOperation(operation)">{{operation.text}}</li>
+		</ul>
+	</div>
+	<div class="calculator">
+		<!-- Screen and clear key -->
+
+		<div class="top">
+			<span class="clear" ng-click="clear()">C</span>
+			<div class="screen"><span class="numbers">{{output}}</span></div>
+		</div>
+		
+		<div class="keys">
+			<!-- operators and other keys -->
+			<span ng-click="putDigit(7)">7</span>
+			<span ng-click="putDigit(8)">8</span>
+			<span ng-click="putDigit(9)">9</span>
+			<span class="operator" ng-click="add()">+</span>
+			<span ng-click="putDigit(4)">4</span>
+			<span ng-click="putDigit(5)">5</span>
+			<span ng-click="putDigit(6)">6</span>
+			<span class="operator" ng-click="subtract()">-</span>
+			<span ng-click="putDigit(1)">1</span>
+			<span ng-click="putDigit(2)">2</span>
+			<span ng-click="putDigit(3)">3</span>
+			<span class="operator" ng-click="divide()">÷</span>
+			<span ng-click="putDigit(0)">0</span>
+			<span ng-click="putDigit('.')">.</span>
+			<span class="eval" ng-click="equals()">=</span>
+			<span class="operator" ng-click="multiply()">x</span>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,27 @@
+<form name="form" class="form-span" no-validate>
+	<h2 class="text-center">Crie uma calculadora para você! Basta dar um nome a ela!</h2>
+	<div class="row">
+		<div class="col xs-12">
+			<div class="form-group" show-errors>
+				<label for="">Nome da calculadora *</label>
+				<input type="text" class="form-control input-lg" ng-model="calculatorForm.name" name="name" ng-required ng-maxlength="40" ng-minlength="8" is-name-free ng-pattern="/^([a-zA-Z0-9]+)$/">
+				<span class="help-block">
+					<p ng-messages="form.name.$error" class="error">
+						<ng-message when="required">O nome da calculadora é obrigatório</ng-message>
+						<ng-message when="minlength">O nome da calculadora deve ter pelo menos 8 caracteres</ng-message>
+						<ng-message when="minlength">O nome da calculadora deve ter no máximo 40 caracteres</ng-message>
+						<ng-message when="pattern">O nome da calculadora pode conter letras maiúsculas e minúsculas</ng-message>
+						<ng-message when="isNameFree">O nome da calculadora solicitado não está disponível</ng-message>
+					</p>
+				</span>
+			</div>
+		</div>
+	</div>
+			
+	<div class="row">
+		<div class="col xs-12">
+			<button class="btn btn-primary btn-lg pull-right" ng-click="submitForm()">Criar calculadora</button>
+		</div>
+	</div>
+
+</form>
