@@ -1,0 +1,48 @@
+Project of software test
+
+
+
+By Hugo Bessa -- hugo@bessa.me
+By jef -- jfnf@cin.ufpe.br
+
+
+
+
+-  *  -  * -  *  -  * -  *  -  * -  *  -  * -
+Requeriments for run those tests of backend: 
+
+#1 - The Node.js -  comes with npm. It's an online repository to projetcs publication of open-sources codes to Node.js. 
+
+Install: http://nodejs.org/dist/v0.12.4/node-v0.12.4.pkg
+
+
+#2 - Mocha -  is a JavaScript test framework for node.js and the browser. It handles test suites and test cases. 
+
+Install: 
+
+$ npm install -g mocha
+
+$ npm install supertest
+
+$ npm install assert
+
+ $ npm install sails
+
+
+-  *  -  * -  *  -  * -  *  -  * -  *  -  * -
+Github's project:
+
+clonar esse respositório  git clone https://github.com/hugobessa/lightcalc.git
+-  *  -  * -  *  -  * -  *  -  * -  *  -  * -
+Fire on the code
+
+go to the local folder of lightCalc and run the mocha framework, like - 
+
+$ mocha test/bootstrap.test.js test/unit/**/*.test.js
+
+
+
+
+
+
+
