@@ -42,11 +42,10 @@
   "author": "hugo",
   "license": "",
   "devDependencies": {
-    "chai-as-promised": "^5.1.0",
+    "chai": "^3.0.0",
     "karma": "^0.12.36",
-    "karma-chai-as-promised": "^0.1.2",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.12",
-    "karma-firefox-launcher": "^0.1.6",
     "karma-mocha": "^0.1.10",
     "karma-ng-html2js-preprocessor": "^0.1.2",
     "mocha": "^2.2.5",
