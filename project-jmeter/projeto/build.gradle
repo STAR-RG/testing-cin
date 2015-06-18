@@ -1,0 +1,21 @@
+apply plugin: 'jmeter'
+ 
+    buildscript {
+        repositories {
+            mavenCentral()
+        }
+        dependencies {
+            classpath 'com.github.kulya:jmeter-gradle-plugin:1.3.4-2.12'
+            classpath 'mysql:mysql-connector-java:5.1.18'
+
+        }
+    }
+
+
+jmeterRun.configure {
+    jmeterTestFiles = [file("src/test/jmeter/teste_cadastro.jmx"), file("src/test/jmeter/teste_login.jmx"), file("src/test/jmeter/teste_consulta.jmx"), file("src/test/jmeter/teste_consulta.jmx"), file("src/test/jmeter/teste_jdbc.jmx"), file("src/test/jmeter/teste_update.jmx")]
+}
+
+jmeterEditor.configure {
+  jmeterPropertyFile = file("src/test/jmeter/jmeter.properties")
+}
