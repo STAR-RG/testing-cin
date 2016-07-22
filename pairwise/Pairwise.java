@@ -9,10 +9,51 @@ class Pairwise {
   Set<Requirement> satisfiedRequirements = new HashSet<Requirement>();
   
   /************** compute requirements **************/
+
+  /* 
+   * This class denotes the domains of variables for the 
+   * problem.  For example, considering a problem with 2 
+   * variables x and y, with x ranging from 1 to 3 and y 
+   * ranging between 0 and 1, lo=[1,0] and hi=[3,1].
+   */
+  static class VarDomains {
+    int[] lo;
+    int[] hi;
+
+    VarDomains(int[] lo, int[] hi) {
+      this.lo = lo;
+      this.hi = hi;
+    }
+    
+  }
+  
+  /*
+   * This class denotes a particular assignment of variable
+   * to value.  An assignment of x to 1 is modeled with 
+   * VarAssignment(0,1).  Note that we assume a particular
+   * index associated to a variable.  See class above.
+   */
+  static class VarAssignment {
+    int var; int val;
+    VarAssignment(int var, int val) {
+      this.var = var;
+      this.val = val;
+    }
+    @Override
+    public String toString() {
+      return String.format("(%d,%d)", var, val);
+    }
+  }
+  
+  
+  /*
+   * This class denotes the test requirement for pairwise coverage.
+   * 
+   * A requirement for pairwise coverage consists of 
+   *    variable index_1 with value val_1 AND 
+   *    variable index_2 with val_2. 
+   */
   static class Requirement {
-    // A requirement pair consists of variable 
-    // index_1 with value val_1 AND variable 
-    // index_2 with val_2.
     int index_1; int val_1;
     int index_2; int val_2;
     Requirement(int index_1, int val_1, int index_2, int val_2) {
@@ -37,29 +78,6 @@ class Pairwise {
       //TODO: this is a horrible/slow hashcode function.  assuming efficiency is not critical.
       return (index_1+""+ val_1+ index_2+ val_2).hashCode();
     }
-  }
-
-  static class VarAssignment {
-    int var; int val;
-    VarAssignment(int var, int val) {
-      this.var = var;
-      this.val = val;
-    }
-    @Override
-    public String toString() {
-      return String.format("(%d,%d)", var, val);
-    }
-  }
-  
-  static class VarDomains {
-    int[] lo;
-    int[] hi;
-
-    VarDomains(int[] lo, int[] hi) {
-      this.lo = lo;
-      this.hi = hi;
-    }
-    
   }
 
   void computeRequirements(VarDomains problem) {
@@ -108,8 +126,17 @@ class Pairwise {
   }
   
   /************** check if test helps improve coverage **************/
-  boolean check(List<VarAssignment> testInput, boolean debug) {
-    return listReqs(testInput, debug).size() > 0; 
+  boolean isUseful(List<VarAssignment> testInput, boolean debug) {
+     List<Requirement> l = listReqs(testInput, debug);
+     /**
+      * Call l.retainAll(c) retains in list l only the elements from c;
+      * it discarding elements not in c.  The method retainAll returns
+      * a boolean indicating whether or not the list has changed.  
+      * 
+      * The list l can only change after if there are elements in l 
+      * which are not in satisfiedRequirements. 
+      */
+     return l.retainAll(satisfiedRequirements); 
   }
 
   /************** coverage ****************/
@@ -119,7 +146,6 @@ class Pairwise {
   
   /**
    * Intent of this main function is to document/explain.
-   * 
    */
   public static void main(String[] args) {
     Pairwise p = new Pairwise();
@@ -168,10 +194,24 @@ class Pairwise {
     test.add(a4);
     test.add(a5);
     test.add(a6);
-    if (p.check(test, false)) {
+    if (p.isUseful(test, false)) {
       // should enter here as there are two new pairs: (x=0, y=2) and (y=2, z=1)
       p.addTest(test, true/*debug*/);
       System.out.printf("coverage %.2f%% ...should be %.2f\n", p.coverage(), 19.23f /* =5/26*/); 
+    }
+    
+    // create another test (x=0, y=1, z=1)
+    VarAssignment a7 = new VarAssignment(0, 0);
+    VarAssignment a8 = new VarAssignment(1, 1);
+    VarAssignment a9 = new VarAssignment(2, 1);
+    test = new ArrayList<VarAssignment>();
+    test.add(a7);
+    test.add(a8);
+    test.add(a9);
+    if (p.isUseful(test, false)) { 
+      // should ***NOT*** enter here, there are no new pairs.
+      p.addTest(test, true/*debug*/);
+      System.out.printf("coverage %.2f%% ...should be %.2f\n", p.coverage(), 19.23f); 
     }
   }
 
