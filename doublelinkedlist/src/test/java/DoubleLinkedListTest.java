@@ -11,37 +11,44 @@ public class DoubleLinkedListTest {
         dll.getFirst();
     }
 
-
+    
     @Test
     public void testAddOne() {
         DoubleLinkedList dll = new DoubleLinkedList();
-	dll.add("one element");
+        dll.add("one element");
         dll.getFirst();
     }
-
+    
     @Test
     public void testAddAll() {
         DoubleLinkedList dll = new DoubleLinkedList();
-	java.util.Collection col = java.util.Arrays.asList("one element");
-	dll.addAll(0, col);
+        java.util.Collection col = java.util.Arrays.asList("one element");
+        dll.addAll(0, col);
     }
-
+    
     @Test
     public void testAddAllWithEmptyCollection() {
         DoubleLinkedList dll = new DoubleLinkedList();
-	java.util.Collection col = new java.util.ArrayList();
-	dll.addAll(0, col);
+        java.util.Collection col = new java.util.ArrayList();
+        dll.addAll(0, col);
     }
-
+    
     @Test
     public void testAddAllAtEnd() {
         DoubleLinkedList dll = new DoubleLinkedList();
-	dll.add("one element");
-	java.util.Collection col = java.util.Arrays.asList("another element");
-	dll.addAll(0, col);
+        dll.add("one element");
+        java.util.Collection col = java.util.Arrays.asList("another element");
+        dll.addAll(0, col);
     }
 
-
-
+    @Test
+    public void testAddRemove() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.add("one element");
+        dll.add(null);        
+        dll.remove(null);        
+        dll.remove("other");
+        dll.remove("one element");
+    }
 
 }
