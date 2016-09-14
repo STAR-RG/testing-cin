@@ -16,6 +16,11 @@ public class tritypTest {
     }
 
     @Test
+    public void testIsosceles2() {
+        Assert.assertEquals(trityp.type(10,10,2), 2);
+    }    
+
+    @Test
     public void testNotTriangle1() {
         Assert.assertEquals(trityp.type(2,1,3), 4);
     }
