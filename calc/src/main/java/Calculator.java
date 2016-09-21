@@ -65,7 +65,7 @@ public class Calculator extends JFrame {
         mainPanel.add(operatorPanel, BorderLayout.EAST);
         mainPanel.add(lcdDisplay, BorderLayout.NORTH);
  
-        errorDisplay = new JLabel(" ");
+        errorDisplay = new JLabel("error");
         errorDisplay.setFont(new Font("Dialog", Font.BOLD, 12));
  
         getContentPane().setLayout(new BorderLayout());
