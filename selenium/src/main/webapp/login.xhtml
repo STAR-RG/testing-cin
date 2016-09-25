@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>Login</title>
+</h:head>
+
+<h:body>
+<h:outputText value="Tela Login" />
+
+	<h:form>
+		<h:panelGrid columns="2">
+			<h:outputLabel for="inputLogin" value="Login:*" /> 
+			<h:inputText id="inputLogin" value="#{loginBean.login}" required="true" />
+	        
+	        <h:outputLabel for="inputSenha" value="Senha:*" />
+	        <h:inputSecret id="inputSenha"  autocomplete="false" required="true" value="#{loginBean.senha}" />
+	        
+			<h:commandButton id="submit" value="Entrar" action="#{loginBean.login}"/>
+			
+			<h:messages style="color:red;" />
+		</h:panelGrid>
+		
+	</h:form>
+</h:body>
+
+</html>
