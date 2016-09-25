@@ -22,16 +22,16 @@ cd selenium<br/>
 ./gradlew build<br/>
 <br/>
 4) No eclipse, importar o projeto Import... > Projects from Git, selecionar o projeto em Existing local repository e por fim, selecionar Import Existing Repository.
-<br/>
+<br/><br/>
 5) Na aba Servers, botão direito em cima do Tomcat Server, selecionar a opção Add and Remove... e adionar o projeto selenium
-<br/>
+<br/><br/>
 6) Em seguida clicar em Start the server e acessar no navegador a URL http://localhost:8080/selenium/login.xhtml
-<br/>
+<br/><br/>
 <p><b>Para realizar o teste do Selenium, realizar os seguintes passos:</b></p>
 
 1) Realilzar o download do webdriver do Edge:<br/>
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/<br/>
  <br/>
 2) Após o download, mover o arquivo MicrosoftWebDriver para a pasta do Eclipse onde se encontra o eclipse.exe
-<br/>
+<br/><br/>
 3) No eclipse, abrir o arquivo LoginTest.java e com o botão direito selecionar a opção Run As... Java application.
