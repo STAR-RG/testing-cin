@@ -12,7 +12,6 @@ Gradle 2.13<br>
 <p><b>Passos para rodar a aplicação no Eclipse:</b><p>
 
 1) Clonar o repositório<br/>
-git clone https://github.com/chrystianjss/selenium.git<br/>
 <br/>
 2) Entrar na pasta do projeto<br/>
 cd selenium<br/>
