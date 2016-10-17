@@ -16,7 +16,7 @@ dependencies {
  * See:
  * http://gradle.org/docs/current/userguide/jacoco_plugin.html
  * 
- * $> gradle jacocoTestReport
+ * $> gradle test jacocoTestReport
  ********************************************************/
 
 apply plugin: "jacoco"
