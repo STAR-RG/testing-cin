@@ -20,43 +20,43 @@ Ao baixar o repositório da demonstração realizar os comandos abaixo
 <h3>Java</h3>
 
 1) <code>$ cd DemoSelenium/DemoSeleniumJava/DemoSimples</code> ou 
-DemoSelenium/DemoSeleniumJava/DemoMultiplo
+<code>DemoSelenium/DemoSeleniumJava/DemoMultiplo</code>
 
-2) $./gradlew build
+2) <code>$./gradlew build</code>
 
 <h3>Ruby</h3>
 
-1) $ gem install selenium-webdriver
+1) <code>$ gem install selenium-webdriver</code>
 
-2) $ gem install minitest
+2) <code>$ gem install minitest</code>
 
 <h3>Python</h3>
 
-1) $ yum install python-pip
+1) <code>$ yum install python-pip</code>
 
-2) $ pip install selenium
+2) <code>$ pip install selenium</code>
 
 
 <h2>Executando os testes</h2>
 
 <h3>Java</h3>
 
-1) $ cd DemoSelenium/DemoSeleniumJava/DemoSimples ou
-DemoSelenium/DemoSeleniumJava/DemoMultiplo
+1) <code>$ cd DemoSelenium/DemoSeleniumJava/DemoSimples</code> ou
+<code>DemoSelenium/DemoSeleniumJava/DemoMultiplo</code>
 
-2) $./gradlew test
+2) <code>$./gradlew test</code>
 
 <h3>Ruby</h3>
 
-1) $ cd DemoSelenium/DemoSeleniumRuby
+1) <code>$ cd DemoSelenium/DemoSeleniumRuby</code>
 
-2) $ ruby TesteSimples.rb
+2) <code>$ ruby TesteSimples.rb</code>
 
 <h3>Python</h3>
 
-1) $ cd DemoSelenium/DemoSeleniumPython
+1) <code>$ cd DemoSelenium/DemoSeleniumPython</code>
 
-2) $ python TesteSimples.py
+2) <code>$ python TesteSimples.py</code>
 
 
 <h2>Selenium IDE</h2>
