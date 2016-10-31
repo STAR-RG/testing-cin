@@ -5,7 +5,7 @@ Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:
 ### Rodando o projeto:
 
 ```
-# O build pode demorar entre 5 e 20 minutos (depende da conexão).
+# O build pode demorar entre 10 e 30 minutos (depende da conexão).
 $ docker-compose build
 
 # O up executará e criará os links entre os containers
