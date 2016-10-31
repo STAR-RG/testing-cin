@@ -18,9 +18,7 @@ Depois, basta rodar:
 ```
 # O build pode demorar entre 10 e 30 minutos (depende da conexão).
 $ docker-compose build
-
-# O up executará e criará os links entre os containers
-$ docker-compose up
+$ docker-compose up [-d]
 ```
 
 ### Usando o Selenium
