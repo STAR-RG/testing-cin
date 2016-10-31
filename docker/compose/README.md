@@ -1,22 +1,25 @@
-# WebGoat + ngrok + Docker
-Docker compose for building WebGoat with ngrok
+# Exemplo de Docker Compose
 
-Running:
+Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project) no [ngrok](https://ngrok.io) e integração com [Selenium](http://selenium-python.readthedocs.io/), acessível pelo terminal do [IPython](https://ipython.org/).
+
+### Rodando o projeto:
+
 ```
-docker-compose build
-docker-compose up
+# O build pode demorar entre 5 e 20 minutos (depende da conexão).
+$ docker-compose build
+
+# O up executará e criará os links entre os containers
+$ docker-compose up
 ```
 
-## Selenium
+### Usando o Selenium
 
-Added Selenium support through IPython with a hidden browser display
-
-Shell:
+Para entrar no terminal do IPython:
 ```
 $ docker-compose run selenium
 ```
 
-IPython:
+Uma vez dentro do IPython, basta executar:
 ```python
 In[1]: from firefox import driver
 
