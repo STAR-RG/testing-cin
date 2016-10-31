@@ -1,6 +1,6 @@
 # Exemplo de Docker Compose
 
-Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project) no [ngrok](https://ngrok.io) e integração com [Selenium](http://selenium-python.readthedocs.io/), acessível pelo terminal do [IPython](https://ipython.org/).
+Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project) no [ngrok](https://ngrok.io) + integração com [Selenium](http://selenium-python.readthedocs.io/), acessível pelo terminal do [IPython](https://ipython.org/).
 
 ### Rodando o projeto:
 
