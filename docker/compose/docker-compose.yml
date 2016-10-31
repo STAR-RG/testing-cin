@@ -1,0 +1,24 @@
+version: '2'
+services:
+  webgoat:
+    restart: always
+    build: ./web
+  ngrok:
+    restart: always
+    build: ngrok
+    volumes:
+      - ./.shared:/home/dev
+    env_file: .env
+    command: bash run.sh
+    depends_on:
+     - webgoat
+  display:
+    build: ./display
+    command: /usr/bin/Xvfb -ac -nolock :99
+    expose:
+      - '6099'
+  selenium:
+    build: ./selenium
+    links:
+      - display
+      - webgoat
