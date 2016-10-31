@@ -24,3 +24,5 @@ RUN useradd -ms /bin/bash dev
 ADD firefox.py /home/dev
 WORKDIR /home/dev
 USER dev
+
+CMD 'ipython'
