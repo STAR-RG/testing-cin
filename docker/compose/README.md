@@ -4,6 +4,17 @@ Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:
 
 ### Rodando o projeto:
 
+Criar um arquivo chamado `.env`.
+
+Caso o **ngrok** seja utilizado, adicionar a seguinte linha no `.env` 
+e substituir os `...` pelo token da sua conta:
+```
+NGROK_TOKEN=...
+```
+Caso contrário, deixe o `.env` vazio (o ngrok não executará).
+
+
+Depois, basta rodar:
 ```
 # O build pode demorar entre 10 e 30 minutos (depende da conexão).
 $ docker-compose build
@@ -14,7 +25,8 @@ $ docker-compose up
 
 ### Usando o Selenium
 
-Para entrar no terminal do IPython:
+Para entrar no IPython, execute o comando abaixo
+(o `docker-compose up` ainda deve estar rodando em um terminal separado):
 ```
 $ docker-compose run selenium
 ```
