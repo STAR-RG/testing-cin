@@ -5,10 +5,9 @@ Utilizando Docker para rodar [WebGoat](https://www.owasp.org/index.php/Category:
 ### Links importantes:
 
 - [Documentação do Docker Compose](https://docs.docker.com/compose/)
-
-  - [Guia de instalação](https://docs.docker.com/compose/install/)
-  - [Referência do docker-compose.yml](https://docs.docker.com/compose/compose-file/)
-  - [Guia básico](https://docs.docker.com/compose/gettingstarted/)
+ - [Guia de instalação](https://docs.docker.com/compose/install/)
+ - [Referência do docker-compose.yml](https://docs.docker.com/compose/compose-file/)
+ - [Tutorial básico](https://docs.docker.com/compose/gettingstarted/)
   
 ### Rodando o projeto:
 
