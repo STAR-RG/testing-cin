@@ -1,9 +1,10 @@
 --------------------
 
-Por favor, indique passo-a-passo o que deve ser feito.  Por exemplo,
-em que diretorio o comando "Building image" deve ser executado.  Fora
-isto, eu instalei o Docker, mas nao tenho o daemon (servidor?)
-rodando.  Indique quais pre-requisitos.  -Marcelo
+Eu instalei o Docker, mas nao tenho o daemon (servidor?) rodando.
+Erro "Cannot connect to the Docker daemon. Is the docker daemon
+running on this host?".  Por favor, indique os pre-requisitos para
+seguir esta tutorial e, por favor, organize o readme em passos (1, 2,
+...)  -Marcelo
 
 --------------------
 
