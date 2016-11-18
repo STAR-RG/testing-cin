@@ -1,3 +1,13 @@
+--------------------
+
+Por favor, indique passo-a-passo o que deve ser feito.  Por exemplo,
+em que diretorio o comando "Building image" deve ser executado.  Fora
+isto, eu instalei o Docker, mas nao tenho o daemon (servidor?)
+rodando.  Indique quais pre-requisitos.  -Marcelo
+
+--------------------
+
+
 # Getting started with docker and simple app Django
 
 All documentation to install Docker: 
