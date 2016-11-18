@@ -1,0 +1,2 @@
+docker-compose==1.7.1
+mitmproxy==0.17
