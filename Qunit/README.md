@@ -1,43 +1,35 @@
-# testing-cin
+# QUnit
+ QUnit é um framework de testes unitários JavaScript que nos ajuda a testar o código.<br>
+ QUnit pode ser utilizado para testar qualquer código baseado em JavaScript. <br>
 
-List of tools we see in this course, grouped by categories.  For
-example, you will find under directory "median" an example on how to
-use the gradle build system.<br>
 
-<p><b>Build Systems</b><br>
-&nbsp;&nbsp;&nbsp;ant: texasholdem<br>
-&nbsp;&nbsp;&nbsp;gradle: median<br>
+<p><b>Equipe:</b><br>
+ Rodrigo Santos (rjs3@cin.ufpe.br)<br>
+ Patrick Almirante (pam4@cin.ufpe.br)<br>
 </p>
 
-<p><b>Test Execution</b><br>
-&nbsp;&nbsp;&nbsp;junit4: median<br>
+<p><b>Como instalar o QUnit</b><br>
+Você precisa dos seguintes Links no template HTML, ou os arquivos dentro de seu projeto <br>
+
+Arquivo CSS : https://code.jquery.com/qunit/qunit-2.0.1.css <br>
+Arquivo JQUERY: https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js <br>
+Arquivo QUNIT: https://code.jquery.com/qunit/qunit-2.0.1.js<br>
 </p>
 
-<p><b>Test Suite Quality</b><br>
-<p>Coverage<br>
-&nbsp;&nbsp;&nbsp;jacoco: doublelinkedlist<br>
-</p>
-<p>Mutation<br>
-&nbsp;&nbsp;&nbsp;pit: triangle<br>
-</p>
+<p> Para montar um interace de visualização dos testes você precisa de um template base do HTML
+<br>
+Você pode encontrar em : http://getbootstrap.com/getting-started/#template
 </p>
 
-<p><b>Fluent Assertions</b><br>
-&nbsp;&nbsp;&nbsp;hamcrest: binarysearch<br>
+<p>
+Após estes passos basta criar um arquivo JS, e inseri-lo no seu HTML. 
+<br>
+Estes arquivos JS devem conter seus testes QUnit
 </p>
 
-<p><b>GUI Testing</b><br>
-&nbsp;&nbsp;&nbsp;assertj+swing: calc<br>
-&nbsp;&nbsp;&nbsp;selenium: selenium-ide<br>
+<p>
+OBS: Mais informações, vide PPT - Apresentação Teste QUNIT
 </p>
-
-<p><b>Load Testing</b><br>
-&nbsp;&nbsp;&nbsp;JMeter: ???<br>
-</p>
-
-Enjoy,<br>
-Marcelo
-
 
 
 
