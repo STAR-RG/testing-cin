@@ -89,13 +89,16 @@ O que você está fazendo é dizendo para o teste que este campo deve conter o c
 Veja na próxima figura como ficou seu teste. 
 
 <img src="imgs_readme/6.png" alt="alt text" width="300" height="500" />
+
 Observe também que caso queira testar outro conteúdo, outro campo ou até mesmo outro comando, basta editar os valores na IDE.
 
 <img src="imgs_readme/7.png" alt="alt text" width="500" height="495" />
+
 Pronto, seu caso de teste já está pronto. Clique no botão de gravar para interromper o teste. Você já pode executar o teste para saber se ele funciona. 
 Clique em  para ver o teste ser executado. Neste caso, veremos desde o login até a verificação do nome com todas as linhas em verde, indicando que os testes resultaram positivos, como na imagem abaixo.
 
 <img src="imgs_readme/8.png" alt="alt text" width="500" height="505" />
+
 Pronto, seu caso de teste já está pronto. Salve a sequência e dê um nome ao teste.
 No Selenium selecione File > Save Test Suite e grave o conjunto de testes, dessa forma você pode executá-lo sempre que julgar necessário.
 
