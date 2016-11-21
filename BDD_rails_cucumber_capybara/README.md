@@ -1,3 +1,5 @@
+[Marcelo: Voce pode colocar numeros dos passos?]
+
 # BDD - IF1009
 
 Preparação do ambiente Rails, cucumber e capybara utilizando Vagrant
@@ -16,13 +18,21 @@ vagrant plugin install vagrant-vbguest
 
 ### Instalando
 
-Fazer download da pasta meu_projeto_teste
+[Marcelo: Nao entendo.  Esta pasta jah esta no repo.  Download de que?  Onde esta a URL?]
 
-Dentro desse diretório usar o comando:    
+Fazer download da pasta meu_projeto_teste 
+
+Dentro desse diretório usar o comando:
+
+[Marcelo, vc. pode explicar rapidamente aqui o em um README neste diretorio que arquivos sao estes?]
+
 ```
 vagrant up
 ```
-OBS: Nas ultimas 7 linhas de saída do comando haverá a informação do endereço e da porta, que por padrão é 127.0.0.1 e 2222 respectivamente. 
+
+OBS: Nas ultimas 7 linhas de saída do comando haverá a informação do
+endereço e da porta, que por padrão é 127.0.0.1 e 2222
+respectivamente.
 
 ## Conectando ao servidor
 
@@ -30,6 +40,13 @@ Para acessar a máquina virtual pelo Linux e Mac usar o comando:
 ```
 vagrant ssh
 ```
+
+[Marcelo: consegui fazer isto, mas eh possivel dar ssh a partir de um
+outro diretorio? se sim, explique.  tentei vagrant ssh 127.0.0.1:2222
+e nao funcionou]
+
+
+[Marcelo: Indente estas instrucoes jah que sao especificas para Windows]
 Em caso de estar usando o Windows é necessário baixar o PuTTy e seguir os seguintes passos:
 ```
 Abra o PuTTy
@@ -70,10 +87,16 @@ Para instalar as gems necessárias.
 
 Siga as instruções em Tutorial_Cucumber_Capybara.txt para rodar os testes bdd
 
+[Marcelo: Voce deve separar o tutorial de "BDD on rails" da execucao
+da demo.  Aqui eu queria executar os testes.  Imagino que voce criou
+alguns jah.  Por favor, mostre como executar os testes e indique se
+devo executar o comando abaixo antes ou depois. ]
+
 Para observar o servidor rodando utilize, dentro do diretorio bdd_teste_app, o comando:
 ```
 rails server -b 0.0.0.0 
 ```
 Utilize o browser e o endereço 127.0.0.1:3000 para visualizar a aplicação em construção usada no exemplo.
 
-
+[Marcelo: vc. nao explicou o que devo fazer para dar shutdown na
+maquina virtual.]
