@@ -2,7 +2,7 @@
 
 Preparação do ambiente Rails, cucumber e capybara utilizando Vagrant
 
-### Pré-requesitos
+### Pré-requisitos
 
 Instalar o VirtualBox - https://www.virtualbox.org/wiki/Downloads
 
@@ -16,14 +16,9 @@ vagrant plugin install vagrant-vbguest
 
 ### Instalando
 
-[Marcelo: nao entendi.  esta pasta jah existe no repo!]
-Fazer download a pasta BDD_rails_cucumber_capybara  
+Fazer download da pasta meu_projeto_teste
 
-Criar um diretório "seu_projeto_teste"
-
-[Marcelo: por que vc. jah nao este diretorio com o arquivo dentro?]
-Colocar Vagrantefile da pasta BDD_rails_cucumber_capybara no "seu_projeto_teste" e dentro do diretório seu_projeto_teste:
-	
+Dentro desse diretório usar o comando:    
 ```
 vagrant up
 ```
@@ -43,7 +38,7 @@ Preencha Host Name (or IP adress) com "vagrant@ip_da_saida_vagrant_up" (default 
 
 Preencha Port com "porta_da_saida_vagrant_up" (default 2222)
 
-Selecionar SSH->Selecionar Auth->Private key file for authentication->BDD_rails_cucumber_capybara->Selecione vagrant.ppk->Open  
+Selecionar SSH->Selecionar Auth->Private key file for authentication->BDD_rails_cucumber_capybara->Selecione vagrant.ppk (contido na pasta do projeto)->Open  
 ```
 
 ### Configurando o Rails
@@ -54,8 +49,6 @@ Utilizar comando:
 ```
 gem install rails
 ```
-
-Copiar para dentro do diretório "seu_projeto_teste" a pasta bdd_teste_app, que contém o ambiente para testes
 
 Use o comando:
 ```
@@ -81,6 +74,6 @@ Para observar o servidor rodando utilize, dentro do diretorio bdd_teste_app, o c
 ```
 rails server -b 0.0.0.0 
 ```
-Utilize o bronser e o endereço 127.0.0.1:3000 para visualizar a aplicação em contrução usada no exemplo.
+Utilize o browser e o endereço 127.0.0.1:3000 para visualizar a aplicação em construção usada no exemplo.
 
 
