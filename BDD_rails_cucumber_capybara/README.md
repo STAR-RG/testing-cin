@@ -16,10 +16,12 @@ vagrant plugin install vagrant-vbguest
 
 ### Instalando
 
-Fazer download a pasta BDD_rails_cucumber_capybara
+[Marcelo: nao entendi.  esta pasta jah existe no repo!]
+Fazer download a pasta BDD_rails_cucumber_capybara  
 
 Criar um diretório "seu_projeto_teste"
 
+[Marcelo: por que vc. jah nao este diretorio com o arquivo dentro?]
 Colocar Vagrantefile da pasta BDD_rails_cucumber_capybara no "seu_projeto_teste" e dentro do diretório seu_projeto_teste:
 	
 ```

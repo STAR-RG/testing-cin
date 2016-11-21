@@ -1,0 +1,13 @@
+damorim@wahoo:~/projects/testing-cin/BDD_rails_cucumber_capybara/meu_projeto_teste$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Box 'rails.box' could not be found. Attempting to find and install...
+    default: Box Provider: virtualbox
+        default: Box Version: >= 0
+        ==> default: Box file was not detected as metadata. Adding it directly...
+        ==> default: Adding box 'rails.box' (v0) for provider: virtualbox
+            default: Downloading: rails.box
+            An error occurred while downloading the remote file. The error
+            message, if any, is reproduced below. Please fix this error and try
+            again.
+
+Couldn't open file /home/damorim/projects/testing-cin/BDD_rails_cucumber_capybara/meu_projeto_teste/rails.box
