@@ -38,7 +38,7 @@ Preencha Host Name (or IP adress) com "vagrant@ip_da_saida_vagrant_up" (default 
 
 Preencha Port com "porta_da_saida_vagrant_up" (default 2222)
 
-Selecionar SSH->Selecionar Auth->Private key file for authentication->BDD_rails_cucumber_capybara->Selecione vagrant.ppk->Open  
+Selecionar SSH->Selecionar Auth->Private key file for authentication->BDD_rails_cucumber_capybara->Selecione vagrant.ppk (contido na pasta do projeto)->Open  
 ```
 
 ### Configurando o Rails
