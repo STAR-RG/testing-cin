@@ -78,6 +78,7 @@ Para instalar as gems necessárias.
 ## Encerrando a prática
 
 11 - Para desligar a máquina: `vagrant halt rails`
+
 12 - Para excluir a máquina totalmente : `vagrant destroy rails`
 
 ### Extras
