@@ -41,22 +41,22 @@ Advanced
 ------------
 
 <p><b>GUI Testing</b><br>
-&nbsp;&nbsp;&nbsp;assertj+swing: demo/assertj+swing<br>
-&nbsp;&nbsp;&nbsp;selenium: demo/selenium<br>
-&nbsp;&nbsp;&nbsp;android-espresso: demo/android-espresso<br>
+&nbsp;&nbsp;&nbsp;assertj+swing: demo/advanced/assertj+swing<br>
+&nbsp;&nbsp;&nbsp;selenium: demo/advanced/selenium<br>
+&nbsp;&nbsp;&nbsp;android-espresso: demo/advanced/android-espresso<br>
 </p>
 
 <p><b>Load Testing</b><br>
-&nbsp;&nbsp;&nbsp;JMeter: demo/jmeter<br>
+&nbsp;&nbsp;&nbsp;JMeter: demo/advanced/jmeter<br>
 </p>
 
 <p><b>DevOps</b><br>
-&nbsp;&nbsp;&nbsp;Docker: demo/docker<br>
-&nbsp;&nbsp;&nbsp;Vagrant: demo/vagrant-tutorial<br>
+&nbsp;&nbsp;&nbsp;Docker: demo/advanced/docker<br>
+&nbsp;&nbsp;&nbsp;Vagrant: demo/advanced/vagrant-tutorial<br>
 </p>
 
 <p><b>JavaScript</b><br>
-&nbsp;&nbsp;&nbsp;QUnit: demo/qunit<br>
+&nbsp;&nbsp;&nbsp;QUnit: demo/advanced/qunit<br>
 </p>
 
 
