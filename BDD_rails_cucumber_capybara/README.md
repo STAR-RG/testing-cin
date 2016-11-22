@@ -73,7 +73,7 @@ Para instalar as gems necessárias.
 
 ##Rodando os Testes
 
-10 - As instruções para construção dos testes se encontra em Execução da Demo
+10 - As instruções para construção dos testes se encontram em Execução da Demo
 
 ## Encerrando a prática
 
@@ -86,4 +86,5 @@ Para instalar as gems necessárias.
 BDD on Rails
 
 Documentação Vagrant: https://www.vagrantup.com/docs/
+Primeiros passos Rails: guides.rubyonrails.org/getting_started.html
 
