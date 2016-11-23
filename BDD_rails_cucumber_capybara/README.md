@@ -1,16 +1,14 @@
-[Marcelo: Voce pode colocar numeros dos passos?]
-
 # BDD - IF1009
 
 Preparação do ambiente Rails, cucumber e capybara utilizando Vagrant
 
 ### Pré-requisitos
 
-Instalar o VirtualBox - https://www.virtualbox.org/wiki/Downloads
+1 - Instalar o VirtualBox - https://www.virtualbox.org/wiki/Downloads
 
-Instalar o Vagrant - https://www.vagrantup.com/downloads.html
+2 - Instalar o Vagrant - https://www.vagrantup.com/downloads.html
 
-Instalar o plugin para convidado do VirtuaBox para o Vagrant, que permite a divisão de dados entre host e VM
+3 - Instalar o plugin para convidado do VirtuaBox para o Vagrant, que permite a divisão de dados entre host e VM
 
 ```
 vagrant plugin install vagrant-vbguest
@@ -18,85 +16,75 @@ vagrant plugin install vagrant-vbguest
 
 ### Instalando
 
-[Marcelo: Nao entendo.  Esta pasta jah esta no repo.  Download de que?  Onde esta a URL?]
 
-Fazer download da pasta meu_projeto_teste 
+4.Dentro do diretório meu_projeto_teste usar o comando:
 
-Dentro desse diretório usar o comando:
-
-[Marcelo, vc. pode explicar rapidamente aqui o em um README neste diretorio que arquivos sao estes?]
 
 ```
 vagrant up
 ```
 
-OBS: Nas ultimas 7 linhas de saída do comando haverá a informação do
+4.1 - Esse comando cria e configura máquinas convidadas de acordo com o arquivo Vagrantfile
+
+4.2 - OBS: Nas ultimas 7 linhas de saída do comando haverá a informação do
 endereço e da porta, que por padrão é 127.0.0.1 e 2222
-respectivamente.
+respectivamente. Essa informação é importante para conexão ssh no Windows
 
 ## Conectando ao servidor
 
-Para acessar a máquina virtual pelo Linux e Mac usar o comando:
+5 - Para acessar a máquina virtual pelo Linux e Mac usar o comando:
 ```
-vagrant ssh
+vagrant ssh rails
 ```
 
-[Marcelo: consegui fazer isto, mas eh possivel dar ssh a partir de um
-outro diretorio? se sim, explique.  tentei vagrant ssh 127.0.0.1:2222
-e nao funcionou]
+5.1 - Esse comando de conexão pode ser utilizado a partir de qualquer diretório, 
+pois após a instalação o comando vagrant será adicionado ao seu PATH para uso no terminal.
+Os parâmetros do comando incluem o nome da máquina caso você esteja rodando mais de uma.
+O nome da nossa é rails, mas assumindo que só temos a nossa rodando o comando acessará ela por default.
 
-
-[Marcelo: Indente estas instrucoes jah que sao especificas para Windows]
-Em caso de estar usando o Windows é necessário baixar o PuTTy e seguir os seguintes passos:
-```
-Abra o PuTTy
-
-Preencha Host Name (or IP adress) com "vagrant@ip_da_saida_vagrant_up" (default 127.0.0.1)
-
-Preencha Port com "porta_da_saida_vagrant_up" (default 2222)
-
-Selecionar SSH->Selecionar Auth->Private key file for authentication->BDD_rails_cucumber_capybara->Selecione vagrant.ppk (contido na pasta do projeto)->Open  
-```
+5.2 - No Windows siga as instruções em: Conexão para Windows
 
 ### Configurando o Rails
 
 Após isso, no console do PUTTy, ou do Linux/Mac você estará dentro da VM (/vagrant):
 
-Utilizar comando:
+6 - Utilizar comando:
 ```
 gem install rails
 ```
 
-Use o comando:
+7 - Use o comando:
 ```
 ls 
 ```
 para visualizar o diretorio do app.
 
-Use o comando:
+8 - Use o comando:
 ```
 cd bdd_teste_app 
 ```
 para entrar no diretório da aplicação (/vagrant/bdd_teste_app).
 
-Utiizar comando:
+9 - Utiizar comando:
 ```
 bundle install
 ```
 Para instalar as gems necessárias.
 
-Siga as instruções em Tutorial_Cucumber_Capybara.txt para rodar os testes bdd
+##Rodando os Testes
 
-[Marcelo: Voce deve separar o tutorial de "BDD on rails" da execucao
-da demo.  Aqui eu queria executar os testes.  Imagino que voce criou
-alguns jah.  Por favor, mostre como executar os testes e indique se
-devo executar o comando abaixo antes ou depois. ]
+10 - As instruções para construção dos testes se encontram em Execução da Demo
 
-Para observar o servidor rodando utilize, dentro do diretorio bdd_teste_app, o comando:
-```
-rails server -b 0.0.0.0 
-```
-Utilize o browser e o endereço 127.0.0.1:3000 para visualizar a aplicação em construção usada no exemplo.
+## Encerrando a prática
 
-[Marcelo: vc. nao explicou o que devo fazer para dar shutdown na
-maquina virtual.]
+11 - Para desligar a máquina: `vagrant halt rails`
+
+12 - Para excluir a máquina totalmente : `vagrant destroy rails`
+
+### Extras
+
+BDD on Rails
+
+Documentação Vagrant: https://www.vagrantup.com/docs/
+Primeiros passos Rails: guides.rubyonrails.org/getting_started.html
+
