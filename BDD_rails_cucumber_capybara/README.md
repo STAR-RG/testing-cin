@@ -2,7 +2,7 @@
 
 Preparação do ambiente Rails, cucumber e capybara utilizando Vagrant
 
-### Pré-requisitos
+### Setup
 
 1 - Instalar o VirtualBox - https://www.virtualbox.org/wiki/Downloads
 
@@ -14,11 +14,13 @@ Preparação do ambiente Rails, cucumber e capybara utilizando Vagrant
 vagrant plugin install vagrant-vbguest
 ```
 
-### Instalando
+### Instale a maquina virtual
 
+
+[MARCELO: Se eu jah tiver feito isto uma vez e depois halt, a VM ainda
+existe.  o que fazer para colocar a VM running novamente?]
 
 4.Dentro do diretório meu_projeto_teste usar o comando:
-
 
 ```
 vagrant up
@@ -37,10 +39,12 @@ respectivamente. Essa informação é importante para conexão ssh no Windows
 vagrant ssh rails
 ```
 
-5.1 - Esse comando de conexão pode ser utilizado a partir de qualquer diretório, 
-pois após a instalação o comando vagrant será adicionado ao seu PATH para uso no terminal.
-Os parâmetros do comando incluem o nome da máquina caso você esteja rodando mais de uma.
-O nome da nossa é rails, mas assumindo que só temos a nossa rodando o comando acessará ela por default.
+5.1 - Esse comando de conexão pode ser utilizado a partir de qualquer
+diretório, pois após a instalação o comando vagrant será adicionado ao
+seu PATH para uso no terminal.  Os parâmetros do comando incluem o
+nome da máquina caso você esteja rodando mais de uma.  O nome da nossa
+é rails, mas assumindo que só temos a nossa rodando o comando acessará
+ela por default.
 
 5.2 - No Windows siga as instruções em: Conexão para Windows
 
@@ -65,7 +69,7 @@ cd bdd_teste_app
 ```
 para entrar no diretório da aplicação (/vagrant/bdd_teste_app).
 
-9 - Utiizar comando:
+9 - Utilizar comando:
 ```
 bundle install
 ```
@@ -73,7 +77,13 @@ Para instalar as gems necessárias.
 
 ##Rodando os Testes
 
-10 - As instruções para construção dos testes se encontram em Execução da Demo
+10 - As instruções para construção dos testes encontram-se no arquivo
+Execucao_da_Demo.txt
+
+[MARCELO: vc. deve colocar instrucoes simplificadas aqui.  se quiser
+pode colocar detalhes em outro arquivo.  minimamente, quero saber como
+executar os testes.  eu executei o comando "cucumber" e aparentemente
+deu erro.  por favor, olhe o arquivo "marcelo.log"]
 
 ## Encerrando a prática
 

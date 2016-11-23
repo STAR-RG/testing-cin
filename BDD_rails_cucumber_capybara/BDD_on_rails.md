@@ -1,6 +1,6 @@
 OBS: Ao utilizar essa demo, todas as gems necessárias já estão especificadas no Gemfile e foram instaladas no comando bundle install do README.md 
 
-
+[MARCELO: Eu nao entendo.  Voce coloca a observacao acima que todas as gems necessarias jah foram definidas e logo abaixo vc. indica pre-requisitos. Entenda que pre-requisitos eh uma forma de dizer o que **nao** esta automatizado nos scripts e que o usuario precisa executar **manualmente**]
 Pré Requisitos para preparar um ambiente Rails para esses testes :
 
 Ter no Gemfile (arquivo de bibliotecas) na parte de testes pelo menos essas 4 gems:

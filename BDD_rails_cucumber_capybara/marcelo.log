@@ -1,0 +1,49 @@
+.... final do comando bundle install ...
+Using rails 5.0.0.1
+Installing sass-rails 5.0.6
+Installing web-console 3.1.1
+Bundle complete! 32 Gemfile dependencies, 136 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+[vagrant|5.0.0.1#2.2.2] /vagrant/bdd_teste_app
+$ cucumber
+WARN: Unresolved specs during Gem::Specification.reset:
+      minitest (~> 5.1)
+      rake (>= 0.8.7)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=test
+
+ (ActiveRecord::PendingMigrationError)
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:572:in `check_pending!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:585:in `load_schema_if_pending!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:591:in `block in maintain_test_schema!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:822:in `suppress_messages'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:596:in `method_missing'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.1/lib/active_record/migration.rb:591:in `maintain_test_schema!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.0.0.1/lib/rails/test_help.rb:15:in `<top (required)>'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activesupport-5.0.0.1/lib/active_support/dependencies.rb:293:in `require'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activesupport-5.0.0.1/lib/active_support/dependencies.rb:293:in `block in require'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activesupport-5.0.0.1/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/activesupport-5.0.0.1/lib/active_support/dependencies.rb:293:in `require'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-rails-1.4.5/lib/cucumber/rails.rb:11:in `<top (required)>'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in `require'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:128:in `rescue in require'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:39:in `require'
+/vagrant/bdd_teste_app/features/support/env.rb:7:in `<top (required)>'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/rb_support/rb_language.rb:96:in `load'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/rb_support/rb_language.rb:96:in `load_code_file'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime/support_code.rb:142:in `load_file'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime/support_code.rb:84:in `block in load_files!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime/support_code.rb:83:in `each'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime/support_code.rb:83:in `load_files!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime.rb:253:in `load_step_definitions'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/runtime.rb:61:in `run!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/lib/cucumber/cli/main.rb:32:in `execute!'
+/home/vagrant/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cucumber-2.4.0/bin/cucumber:8:in `<top (required)>'
+/home/vagrant/.rbenv/versions/2.2.2/bin/cucumber:23:in `load'
+/home/vagrant/.rbenv/versions/2.2.2/bin/cucumber:23:in `<main>'

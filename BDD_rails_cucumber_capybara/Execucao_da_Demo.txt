@@ -1,13 +1,12 @@
-﻿Todas as instruções devem ser executadas dentro do diretorio do aplicativo bdd_teste_app
-Utilize os comandos de navegação do terminal do Linux para visualizar pastas, estruturas
-e fazer as edições necessárias nos testes.
-Visualize a estrutura do projeto no explorer ou no git em caso de dúvida.
-
+﻿Todas as instruções devem ser executadas dentro do diretorio do
+aplicativo bdd_teste_app. Utilize os comandos de navegação do terminal
+do Linux para visualizar pastas, estruturas e fazer as edições
+necessárias nos testes.  Visualize a estrutura do projeto no explorer
+ou no git em caso de dúvida.
 
 Há 2 formas de rodar os testes:
     1 - Caso você desejar rodar todos os testes, utilize apenas o comando cucumber
     2 - Caso você desejar rodar algum teste em específico, utilize o comando cucumber seguido do local do arquivo.
-
 
 Toda vez que você rodar o comando cucumber, ele pode informar 3 coisas:
     1 - A quantidade de testes que passou (em linhas verdes)
@@ -24,13 +23,11 @@ e acessar o site em 127.0.0.1:3000
 para encerrar a instância do servidor use, no terminal, o comando:
 
 ```
-Cntrl + c
+CTRL + C
 ```
 /*********************************/
 
-
 Ambiente da Demonstração:
-
 
 Desejo criar uma pequena plataforma onde consiga realizar login e submeter qualquer comentário.
 Desejo visualizar na tela de inicio ícones com links que me redirecione para as telas de: home, contato e ajuda.
