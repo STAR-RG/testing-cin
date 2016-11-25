@@ -148,8 +148,17 @@ Execucao_da_Demo.txt
 ## Encerrando a prática
 
 15 - Para desligar a máquina: `vagrant halt rails`
+
 16 - Para religar a máquina: `vagrant reload rails`
+
 17 - Para excluir a máquina totalmente : `vagrant destroy rails`
+
+OBS: Como saída de alguns dos comandos acima a mensagem "A Vagrant environment 
+or target machine is required.." nesse caso utilize o comando: `vagrant global_status`
+para observar os status de todas as VM. 
+Identifique o id da sua máquina na primeira coluna 
+e substitua o nome no comando por ele.
+
 
 ### Extras
 
