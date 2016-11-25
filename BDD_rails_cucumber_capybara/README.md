@@ -129,7 +129,7 @@ que podem ser utilizados no step_definitions.
 
 13 - Vá para o arquivo app/views/static_pages/home.html.erb
     13.1 - Substitua o conteúdo da tag <h1> por:
-    <h1>Hello to this page</h1>
+    
 14 - Para rodar o app utilize o comando: `rails server -b 0.0.0.0` 
 E veja, no seu browser, como está a página em 127.0.0.0:3000
 Para parar use o comando: `Ctrl + c`
