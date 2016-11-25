@@ -17,9 +17,6 @@ vagrant plugin install vagrant-vbguest
 ### Instale a maquina virtual
 
 
-[MARCELO: Se eu jah tiver feito isto uma vez e depois halt, a VM ainda
-existe.  o que fazer para colocar a VM running novamente?]
-
 4.Dentro do diretório meu_projeto_teste usar o comando:
 
 ```
@@ -77,19 +74,79 @@ Para instalar as gems necessárias.
 
 ##Rodando os Testes
 
-10 - As instruções para construção dos testes encontram-se no arquivo
+Para rodar o app utilize o comando: `rails server -b 0.0.0.0` 
+E veja, no seu browser, como está a página em 127.0.0.0:3000
+Para parar use o comando: `Ctrl + c`
+
+10 - Vá para a pasta features
+11 - Crie um arquivo chamado Hello.feature na pasta features
+
+11.1 - Dentro do arquivo, adicionar o conteudo:
+    
+    Feature: Hello Message     # a parte da feature apenas informa que tipo
+    As a enterprise            # de caracteristicas é desejavel
+    In order to say Something
+    I want to the the Hello message
+
+
+    # o Scenario é o local onde vai ser definido as informações
+    # macro. "O que acontecer, quando apertar aquele botão"
+    # "O que esperar quando estiver nessa ou naquela página"
+    # São coisas que o scenario vai estar utilizando
+    # Definindo com os parametros When, Given, Then e And
+    
+    Scenario:
+        Given I'm in homepage
+        Then I want to see the message "Hello to this page"
+        
+11.2 - Salve o arquivo. 
+Digite no terminal: `cucumber features/hello.feature` e verificar os passos
+        que podem ser utilizados no step_definitions.
+        
+12 - Crie um arquivo chamado Hello_step.rb na pasta features/step_definitions
+    12.1 - Dentro do arquivo, adicionar o conteudo:
+    
+    # Aqui podemos fazer realmente o passo a passo que dissemos no 
+    # scenario da feature: iremos dizer o que deve acontecer de acordo
+    # com a frase dita. "I'm in homepage" por exemplo, você quer estar
+    # na Página Principal, home, e então você adiciona o comando
+    # visit(root_path) <- visite a rota raiz (que é a home page)
+    # depois no outro comando, page.has_content?(arg1) <- teste se
+    # a mensagem passada por parametro no scenario está na home page.
+    
+        When(/^I'm in homepage$/) do
+            visit(root_path)
+        end
+
+
+        Given(/^I want to see the message "([^"]*)"$/) do |arg1|
+            assert page.has_content?(arg1)
+        end
+    
+12.2 - Digite no terminal: `cucumber features/hello.feature` e verificar os passos
+que podem ser utilizados no step_definitions.
+
+
+13 - Vá para o arquivo app/views/static_pages/home.html.erb
+    13.1 - Substitua o conteúdo da tag <h1> por:
+    <h1>Hello to this page</h1>
+14 - Para rodar o app utilize o comando: `rails server -b 0.0.0.0` 
+E veja, no seu browser, como está a página em 127.0.0.0:3000
+Para parar use o comando: `Ctrl + c`
+
+
+
+
+As instruções para construção de testes mais detalhadas encontram-se no arquivo
 Execucao_da_Demo.txt
 
-[MARCELO: vc. deve colocar instrucoes simplificadas aqui.  se quiser
-pode colocar detalhes em outro arquivo.  minimamente, quero saber como
-executar os testes.  eu executei o comando "cucumber" e aparentemente
-deu erro.  por favor, olhe o arquivo "marcelo.log"]
+
 
 ## Encerrando a prática
 
-11 - Para desligar a máquina: `vagrant halt rails`
-
-12 - Para excluir a máquina totalmente : `vagrant destroy rails`
+15 - Para desligar a máquina: `vagrant halt rails`
+16 - Para religar a máquina: `vagrant reload rails`
+17 - Para excluir a máquina totalmente : `vagrant destroy rails`
 
 ### Extras
 
