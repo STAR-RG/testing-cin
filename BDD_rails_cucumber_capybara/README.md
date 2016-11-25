@@ -100,7 +100,7 @@ Para parar use o comando: `Ctrl + c`
         Then I want to see the message "Hello to this page"
         
 11.2 - Salve o arquivo. 
-Digite no terminal: `cucumber features/hello.feature` e verificar os passos
+Volte para o diretório /bdd_teste_app e digite o comando: `cucumber features/hello.feature` e verificar os passos
         que podem ser utilizados no step_definitions.
         
 12 - Crie um arquivo chamado Hello_step.rb na pasta features/step_definitions
@@ -123,7 +123,7 @@ Digite no terminal: `cucumber features/hello.feature` e verificar os passos
             assert page.has_content?(arg1)
         end
     
-12.2 - Digite no terminal: `cucumber features/hello.feature` e verificar os passos
+12.2 - Volte para o diretório /bdd_teste_app e digite no terminal: `cucumber features/hello.feature` e verificar os passos
 que podem ser utilizados no step_definitions.
 
 
