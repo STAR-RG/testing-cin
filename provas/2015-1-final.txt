@@ -1,0 +1,29 @@
+Prova Final de Testes - IF1009 - 26 de Junho de 2015
+Prof. Marcelo d'Amorim
+
+
+1. Qual o propósito do teste de mutação?  Explique seu funcionamento, aspectos positivos e negativos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Qual o propósito do teste de integração contínua?    Explique seu funcionamento, aspectos positivos e negativos.
+
+

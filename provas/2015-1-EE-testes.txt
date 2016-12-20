@@ -1,0 +1,45 @@
+1EE Testes - IF1009 - 3 de Junho de 2015
+Prof. Marcelo d'Amorim
+
+
+1. Qual a diferença entre teste e depuração?
+
+
+
+
+
+
+
+
+2. Explique o que é teste de regressão.
+
+
+
+
+
+
+
+
+3. Para que se faz o teste de carga?
+
+
+
+
+
+
+
+
+
+4. Cite vantagens e desvantagens do teste de GUI (interface gráfica).
+
+
+
+
+
+
+
+
+5. Cobertura de código e teste de mutação tem o mesmo propósito.  Que propósito é este? Explique como estas técnicas ajudam a alcançar tal propósito.
+
+
+
