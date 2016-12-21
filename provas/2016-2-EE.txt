@@ -1,0 +1,64 @@
+Primeiro Exercício Escolar, 10 de Outubro de 2016
+Teste e Validação de Software - IF1009
+Prof. Marcelo d'Amorim
+
+1. Cite elementos importantes a se documentar em um "bug report" e
+indique boas e más práticas no seu preparo.
+
+
+
+
+
+
+
+
+
+2. Na prática de desenvolvimento de sistemas, em que situações bug
+reports são mais usados e em que situações bug reports são menos
+usados.  Explique.
+
+
+
+
+
+
+
+
+
+3. Para que serve o teste de integração contínua *e* como funciona?
+
+
+
+
+
+
+
+
+
+
+4. Explique a utilidade de ambientes virtuais de operação para apoiar
+o teste de software.  Considere o que foi visto na aula passada, na
+demonstração da ferramenta Vagrant.
+
+
+
+
+
+
+
+
+
+
+5. Um desenvolvedor precisa testar uma aplicação que depende dos
+seguintes parâmetros de configuração:
+
+Sistema Operacional: Linux, Windows, MacOs
+Browser: Chrome, Firefox, Opera
+Lingua: Inglês, Português
+
+Um exemplo de configuração para testar o sistema seria "Linux,
+Firefox, Português".  Existe um total de 18 (= 3*3*2) configurações a
+serem testadas neste caso.  Infelizmente, tal teste exaustivo é
+custoso.  Mostre um conjunto de configurações que satisfaz o critério
+de adequação "todos os pares", também conhecido como "pairwise" ou
+"t-wise" com t=2.
