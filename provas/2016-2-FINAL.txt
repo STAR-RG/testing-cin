@@ -1,0 +1,25 @@
+IF1009 - Teste e Validação de Software (PROVA FINAL)
+Sistemas de Informação
+Universidade Federal de Pernambuco, Julho de 2014
+Prof. Marcelo d'Amorim
+
+1. Qual a diferença entre teste e depuração?
+
+
+
+2. Explique a importância da simplificação do teste no processo de
+depuração.
+
+
+
+3. O que é o teste de integração contínua e qual sua relação com teste
+de regressão?
+
+
+
+4. Explique como o uso das tecnologias de virtualização (como Vagrant e
+Docker) podem ajudar no teste de software.
+
+
+
+5. O que é MC/DC?
