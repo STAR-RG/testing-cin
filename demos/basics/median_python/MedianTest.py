@@ -8,7 +8,8 @@ class MedianTestCase(unittest.TestCase):
     def test_median_is_last(self):
         self.assertNotEqual(1, median(3, 1, 2))
 
-    @unittest.skip('not working') # used to skip the test under some justification
+    # used to skip the test under some justification        
+    @unittest.skip('not working') 
     def test_median_is_middle(self):
         self.assertEqual(1, median(1, 2, 3))
 
