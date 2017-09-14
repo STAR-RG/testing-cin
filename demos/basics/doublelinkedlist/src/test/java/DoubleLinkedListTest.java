@@ -51,4 +51,16 @@ public class DoubleLinkedListTest {
         dll.remove("one element");
     }
 
+    @Test(expected=java.lang.IndexOutOfBoundsException.class)
+    public void testRemove() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.remove(-1);
+    }
+
+    @Test(expected=java.lang.IndexOutOfBoundsException.class)
+    public void testRemove2() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.remove(1);
+    }    
+
 }

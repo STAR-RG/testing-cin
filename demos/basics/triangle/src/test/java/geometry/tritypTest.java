@@ -50,5 +50,15 @@ public class tritypTest {
         Assert.assertEquals(trityp.type(1,1,0), 4);
     }
 
+    @Test
+    public void testNotTriangle7() {
+        Assert.assertEquals(trityp.type(11,5,5), 4);
+    }
+
+    @Test
+    public void testNotTriangle8() {
+        Assert.assertEquals(trityp.type(5,11,5), 4);
+    }
+
 
 }

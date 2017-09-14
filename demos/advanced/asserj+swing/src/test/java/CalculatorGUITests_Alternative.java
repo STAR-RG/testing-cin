@@ -79,8 +79,8 @@ public class CalculatorGUITests_Alternative extends AssertJSwingJUnitTestCase {
             window.button("=").click();
             //  window.textBox("lcd").requireText("Inf"); // true only for doubles
             org.assertj.swing.fixture.JLabelFixture labelFixture = window.label("error");
-            System.out.println(labelFixture);
-            System.out.println(labelFixture.text());
+            //            System.out.println(labelFixture);
+            //            System.out.println(labelFixture.text());
             labelFixture.requireText("ERROR: Division by Zero"); // true only for doubles       
         } catch (Throwable e) {
             snapshot("testDivZero.png");
