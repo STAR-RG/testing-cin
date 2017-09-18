@@ -5,49 +5,60 @@ Prof. Marcelo d'Amorim
 1. Cite elementos importantes a se documentar em um "bug report" e
 indique boas e más práticas no seu preparo.
 
+Elementos importantes a se documentar:
+ - Ambiente (versão do software, bibliotecas, SO, etc.)
+ - Passos para reproduzir o problema
+ - Resultado obtido versus resultado esperado
+ - Telas da interface gráfica ajudando a explicar o problema
+ Adicionados por um gerente:
+ - Prioridade 
+ - Responsável
 
-
-
-
-
-
-
+Boas práticas:
+ - Escrever de forma breve
+   > Focar em informações relevantes
+   > Minimizar passos (remover passos desnecessários)
+ - Reportar um problema por bug report
+ - Foco no problema e não na solução
 
 2. Na prática de desenvolvimento de sistemas, em que situações bug
 reports são mais usados e em que situações bug reports são menos
 usados.  Explique.
 
+Bug reports são mais comumente usados em situações onde usuários da
+aplicações tem interesse em melhorar a qualidade do sistemas. Nestes
+casos, reportam problemas utilizando linguagem natural através de um
+sistema de rastreamente de bug como o "Bugzilla".
 
-
-
-
-
-
-
+Bug reports são menos usados em ambientes onde a maioria dos usuários
+tem um perfil técnico.  Nestes casos, ao encontrar erros, o
+desenvolvedor criar um caso de teste e o adiciona a uma suíte de
+regressão que irá apontar o erro até que o mesmo seja corrigido.
 
 3. Para que serve o teste de integração contínua *e* como funciona?
 
+O teste de integração contínua serve para otimizar o teste de
+regressão, que serve para detectar a presença de regressões.  Uma
+regressão é uma situação onde uma determinada "feature" do sistemas
+deixou de funcionar. Durante o desenvolvimento erros de integração só
+são percebido após commit+push de atualizações.  O teste de integração
+serve para acelerar a detecção destas falhas de integração na medida
+que os teste são reexecutadas continuamente diante de cada atualização
+de um repositório de código compartilhado.
 
-
-
-
-
-
-
-
+Um servidor de integração contínua "escuta" um servidor git.  No
+momento de um push, o servidor avisa ao servidor de integração sobre a
+atualização.  Neste instante, o servidor de integração dá um pull no
+servidor git, como se fosse um usuário comum.  
 
 4. Explique a utilidade de ambientes virtuais de operação para apoiar
 o teste de software.  Considere o que foi visto na aula passada, na
 demonstração da ferramenta Vagrant.
 
-
-
-
-
-
-
-
-
+A principal utilidade está no apoio a reprodução de problemas.  Por
+exemplo, um usuário que observa o problema poderia construir uma
+máquina virtual que ilustra o problema e um segundo usuário poderia
+instalar a máquina virtual em seu ambiente para reproduzir o problema.
 
 5. Um desenvolvedor precisa testar uma aplicação que depende dos
 seguintes parâmetros de configuração:
@@ -62,3 +73,20 @@ serem testadas neste caso.  Infelizmente, tal teste exaustivo é
 custoso.  Mostre um conjunto de configurações que satisfaz o critério
 de adequação "todos os pares", também conhecido como "pairwise" ou
 "t-wise" com t=2.
+
+S={L,W,M}
+B={C,F,O}
+L={I,P}
+
+f(S s, B b, L l) { .... }
+
+   S B L  - Pares cobertos    - Pares novos
+1. L C I  - (L,C) (L,I) (C,I) - 3
+2. L F P  - (L,F) (L,P) (F,P) - 3
+3. W C P  - (W,C) (W,P) (C,P) - 3
+4. M O P  - (M,O) (M,P) (O,P) - 3
+5. W F I  - (W,F) (W,I) (F,I) - 3
+6. L O I  - (L,O) (L,I) (O,I) - 2
+7. W O I  - (W,O) (W,I) (O,I) - 1
+8. M C I  - (M,C) (M,I) (C,I) - 2
+9. M F I  - (M,F) (M,I) (F,I) - 1
