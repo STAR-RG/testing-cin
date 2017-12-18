@@ -1,0 +1,61 @@
+IF1009 1EE, 20 de Setembro de 2017
+Prof. Marcelo d'Amorim
+[[ Cada questão vale 2,5 pontos ]]
+
+1. Considerando o teste de mutação, explique o que é um mutante e como
+matá-lo.
+
+Mutante é um variação do programa que se quer testar. A variação está
+associada a um defeito, introduzido intencionalmente de maneira a se
+avaliar se a suíte de teste será capaz de detectá-lo.
+
+No teste de mutação, dizemos que um mutante é "morto" quando a
+execução da suíte de teste detecta sua presença. Isto ocorre quando
+algum teste da suíte falha quando executado na versão mutante do
+código.
+
+2. O se chefe lhe deu a atividade de testar um equipamento eletrônico
+que é crítico para construção de um sistema. Explique como vc. faria
+para testar este equipamento.
+
+Eu, primeiramente, iria analisar o documento de especificação do
+equipamento para identificar seus requisitos funcionais. Isto é,
+relação entre entrada e saída do equipamento. A partir disto, usaria
+alguma técnica de teste funcional, como particionamento de domínio e
+teste de fronteira para checar se o equipamente satisfaz os
+requisitos.  Testes não funcionais poderiam ser testados também.
+
+3. Escreva uma suíte de testes adequada a MCDC considerando o
+fragmento de código abaixo.
+
+    if (a && (b || c)) { ... }
+
+  a b c R
+---------  
+  0 1 0 0
+  1 1 0 1
+--------- duas linhas acima, a variavel "a" eh pivo
+  1 0 0 0
+  1 1 0 1
+--------- duas linhas acima, a variavel "b" eh pivo
+  1 0 0 0
+  1 0 1 1
+--------- duas linhas acima, a variavel "c" eh pivo
+
+4. Considere que uma função possui dois parâmetros do mesmo tipo que
+admitem valores LO, MED, e HI, e possui um parâmetro de um tipo que
+admite valores T e F. Monte uma suíte de testes para tal função
+adequada ao critério "Todos os Pares", também conhecida como Pairwise.
+
+ X  Y  Z    pares cobertos
+ L_  L  T    L_L, L_T, LT
+ L_  M  F    L_M, L_F, MF
+ L_  H  T    L_H, HT
+ M_  L  F    M_L, M_F, LF
+ M_  M  T    M_M, M_T, MT
+ M_  H  F    M_H, HF
+ H_  L  T    H_L, H_T
+ H_  M  F    H_M, H_F
+ H_  H  T    H_H
+
+21 pares = 3 * 3 + 3 * 2 + 3 * 2 
