@@ -32,4 +32,9 @@ public class MoreMedianTest {
        Assert.assertEquals(2, median(2, 1, 2));
     }
 
+    @Test
+    public void midAllEqual() {
+       Assert.assertEquals(3, median(3, 3, 3));
+    }
+
 }
