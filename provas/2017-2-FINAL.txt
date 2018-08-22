@@ -1,0 +1,29 @@
+IF1009 - Teste e Validação de Software (PROVA FINAL)
+Sistemas de Informação
+Universidade Federal de Pernambuco, Dezembro de 2017.
+Prof. Marcelo d'Amorim
+
+1 [2 pontos]. O que é teste de regressão.
+
+
+2 [2 pontos]. Qual a relação entre o teste de regressão e o teste de
+integração contínua?
+
+
+3 [2 pontos]. Explique o teste de mutação.
+
+
+4 [2 pontos]. Construa uma suíte de teste que satisfaça o critério de
+cobertura "Todos os Pares" para a função abaixo.
+
+
+  void foo(boolean b1, int i1, bool b2);
+
+Considere que o parâmetro inteiro admite apenas 3 possíveis valores:
+A, B, e C.
+
+5 [2 pontos]. O número total de pares (isto é, requisitos de teste) no
+exemplo acima é 16.  Explique este número e explique como
+vc. calcularia o número de pares caso um novo parâmetro, admitindo 3
+valores, fosse adicionado a função.
+
