@@ -1,4 +1,9 @@
-.DS_Store
-*~
 */build
+build
+*~
 .gradle
+.project
+.classpath
+.settings
+bin
+.vscode

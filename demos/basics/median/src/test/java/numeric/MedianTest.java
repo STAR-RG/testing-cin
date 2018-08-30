@@ -24,7 +24,7 @@ public class MedianTest {
     }
 
     @Ignore
-    @Test
+    @Test(timeout=1000)
     public void infiniteLoop() {
         while (true) {}
     }

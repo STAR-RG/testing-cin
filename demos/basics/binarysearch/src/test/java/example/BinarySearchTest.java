@@ -3,19 +3,20 @@ package example;
 import org.junit.Test;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
+import java.util.Arrays;
+
 public class BinarySearchTest {
     
-    int[] a = new int[]{1,3,5,7,9,13,20,55,127,255};
+    int[] a;
 
-    @Ignore
-    @Test(timeout=1000)
-    public void infiniteLoop() {
-        while (true) {}
+    @Before
+    public void setup() {
+        a = new int[]{7,9,1,3,5,13,20,55,255,127};
+        Arrays.sort(a);
     }
     
     @Test
