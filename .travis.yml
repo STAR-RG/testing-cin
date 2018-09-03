@@ -4,7 +4,7 @@ java:
  - 1.8
 
 before_install:
- - apt-get install gradle
+ - sudo apt-get install gradle
 
 script:
  - cd demos/basics/binarysearch/
