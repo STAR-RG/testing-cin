@@ -1,0 +1,17 @@
+language: java
+
+java:
+ - 1.8
+
+before_install:
+ - apt-get install gradle
+
+script:
+ - gradle build
+
+notifications:
+  email:
+    recipients:
+      - damorim.marcelo@gmail.com
+    on_success: always
+    on_failure: always
