@@ -5,10 +5,10 @@ import org.junit.Assert;
 
 public class tritypTest {
 
-    @Test
-    public void testEqualateral() {
-        Assert.assertEquals(trityp.type(1,1,1), 3);
-    }
+    // @Test
+    // public void testEqualateral() {
+    //     Assert.assertEquals(trityp.type(1,1,1), 3);
+    // }
 
     @Test
     public void testIsosceles() {
@@ -60,5 +60,20 @@ public class tritypTest {
         Assert.assertEquals(trityp.type(5,11,5), 4);
     }
 
+    @Test
+    public void testNotTriangle9() {
+        Assert.assertEquals(trityp.type(1,1,3), 4);
+    }
+
+    @Test
+    public void testNotTriangle10() {
+        Assert.assertEquals(trityp.type(1,3,1), 4);
+    }
+
+    @Test
+    public void testNotTriangle11() {
+        Assert.assertEquals(trityp.type(3,1,1), 4);
+    }
+    
 
 }
