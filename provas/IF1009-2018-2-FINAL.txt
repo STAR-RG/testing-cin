@@ -1,0 +1,19 @@
+Prova Final de Testes IF1009
+Prof. Marcelo d'Amorim
+Recife, 10 de Dezembro de 2019
+
+1. [2 pontos] Qual a diferença entre
+
+ - Falta e falha?
+ - Teste e depuração?
+
+
+2. [2.5 pontos] O que é teste de mutação? Demonstre através de exemplo.
+
+
+
+3. [2.5 pontos] Explique pairwise testing.
+
+
+
+4. [3 pontos] Explique o que é JML e como pode ser usado para encontrar bugs.
