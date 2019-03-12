@@ -2,8 +2,7 @@
 ### Professor: Marcelo d'Amorim ([web](http://cin.ufpe.br/~damorim/), damorim@cin.ufpe.br)
 <hr>
 
-<img src="http://worldartsme.com/images/scared-bug-clipart-1.jpg" height=200>
-
+<img src="img/scared-bug-clipart-1.jpg" height=200 class="img-responsive" alt="Odeio teste de software!">
 
 <!--
 ### Instrutores
