@@ -28,10 +28,10 @@ Teste de Software é uma atividade extremamente importante na Engenharia de Soft
 - http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
 ### Bibliografia
-- [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/), by Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler <b>(online)</b>
-- Software Testing and Analysis, Mauro Pezze and Michal Young, Wiley, 2008  
-- Why Programs Fail?, Andreas Zeller, Morgan Kaufmann 2009 (2nd edition)
-- Software Testing, Glenford Myers, Wiley, 2004 (2nd edition)
+- [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/). Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler <b>(online)</b>
+- Software Testing and Analysis. Mauro Pezze and Michal Young, Wiley, 2008  
+- Why Programs Fail?. Andreas Zeller, Morgan Kaufmann 2009 (2nd edition)
+- Software Testing. Glenford Myers, Wiley, 2004 (2nd edition)
 <!---
 [Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ulmann, Compilers: Principles, Techniques and Tools , 2nd Edition, Addison Wesley, 2007](https://www.saraiva.com.br/compiladores-principios-tecnicas-e-ferramentas-1998960.html)
 --->
@@ -85,5 +85,5 @@ Na pós-graduação, a avaliação será feita em função de um projeto de pesq
 
 | # | Data | Assunto | Observação |
 |:---:|:----:|:----------------------:|:----------------------|
-| 01 | 12/03/2019 | Apresentação da disciplina | O formato da disciplina foi apresentado. O material teórico não começou a ser visto. Apenas Alex na sala. |
-| 02 | 14/03/2019 | [Teste versus depuração. Falta versus falha.](/slides.pptx) |   |
+| 01 | 12/03/2019 | Apresentação da disciplina | Apresentação da metodologia de ensino e de avaliação que será usada no curso. O material teórico não começou a ser visto. Apenas Alex na sala. |
+| 02 | 14/03/2019 | Teste versus depuração.<br> Falta versus falha.<br> Como escrever um bug report.<br> Caso de teste (com JUnit).<br>[slides](/slides.pptx) |   |
