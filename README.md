@@ -1,12 +1,15 @@
-# Teste e Validação de Software
+# Teste de Software <br> [Centro de Informática](http://www.cin.ufpe.br), [UFPE](http://www.ufpe.br) 
+### Professor: Marcelo d'Amorim ([web](http://cin.ufpe.br/~damorim/), damorim@cin.ufpe.br)
+<hr>
 
-## [Centro de Informática](http://www.cin.ufpe.br), [UFPE](http://www.ufpe.br)
+<img src="http://worldartsme.com/images/scared-bug-clipart-1.jpg" height=200>
+
 
 <!--
 ### Instrutores
 -->
 
-**Professor**: Marcelo d'Amorim ([web](http://cin.ufpe.br/~damorim/), damorim@cin.ufpe.br)
+
 
 <!--
 * **Monitores** 
@@ -14,38 +17,26 @@
   * Marco Polo Munt Rocha
 -->  
   
-### Horário e Local de Aulas
+### Horário e Local das Aulas
 * Terças (10-12h) e Quintas (10-12h), sala D222
+
+### Repositório GitHub
+- http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
 ### Ementa
 
 Teste de Software é uma atividade extremamente importante na Engenharia de Software. Este curso tem como objetivo fazer com que o aluno compreenda os princípios e conceitos associados ao Teste de Software. O curso é ofertado na graduação e na pós-graduação, em semestres alternados. Apesar das duas versões da disciplinas cobrirem o mesmo material teórico, a intensidade da discussão deste material é diferente e a ênfase de cada versão do curso é diferente. Na graduação, o material teórico é coberto de maneira mais detalhada, em cerca de oito semanas, e a ênfase da disciplina é em ferramentas usadas na prática industrial. Na pós-graduação, o mesmo material teórico é coberto em duas semanas e a ênfase é em problemas de pesquisa na área. 
 
-<!---
-### Referências
---->
-### Repositório GitHub
-- http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
+
+### Metodologia
+
+Na pós-graduação, a avaliação será feita em função de um projeto de pesquisa. Cada aluno (ou par) escolherá um projeto, definido pelo professor. O escopo do projeto é compatível com a duração do curso; o aluno receberá créditos logo ao término do semestre. Importante destacar que o projeto, a princípio, possui potencial de publicação, mas não há obrigação de publicação (até porque não há garantia de se obter bons resultados). Caso o aluno queira publicar o trabalho, provavelmente terá que investir um pouco mais de esforço após a conclusão do curso. O professor irá ajudar ativamente cada grupo, fornecendo as ferramentas necessárias para realização do projeto (p.ex., scripts e datasets). A lista de projetos (cinco a seis opções) será definida pelo professor e criticada durantes as aulas.
 
 ### Bibliografia
 - [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/). Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler <b>(online)</b>
 - Software Testing and Analysis. Mauro Pezze and Michal Young, Wiley, 2008  
 - Why Programs Fail?. Andreas Zeller, Morgan Kaufmann 2009 (2nd edition)
 - Software Testing. Glenford Myers, Wiley, 2004 (2nd edition)
-<!---
-[Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ulmann, Compilers: Principles, Techniques and Tools , 2nd Edition, Addison Wesley, 2007](https://www.saraiva.com.br/compiladores-principios-tecnicas-e-ferramentas-1998960.html)
---->
-
-<!---
-### Objetivos
-
-O objetivo da disciplina é compreender detalhes do processo de compilação e como aplicar os conceitos em outros contextos.
-A disciplina apresenta conceitos básicos sobre interpretação, análise, e síntese de programas. 
--->
-
-### Metodologia
-
-Na pós-graduação, a avaliação será feita em função de um projeto de pesquisa. Cada aluno (ou par) escolherá um projeto, definido pelo professor. O escopo do projeto é compatível com a duração do curso; o aluno receberá créditos logo ao término do semestre. Importante destacar que o projeto, a princípio, possui potencial de publicação, mas não há obrigação de publicação (até porque não há garantia de se obter bons resultados). Caso o aluno queira publicar o trabalho, provavelmente terá que investir um pouco mais de esforço após a conclusão do curso. O professor irá ajudar ativamente cada grupo, fornecendo as ferramentas necessárias para realização do projeto (p.ex., scripts e datasets). A lista de projetos (cinco a seis opções) será definida pelo professor e criticada durantes as aulas.
 
 <!---
 ### Recursos
@@ -78,10 +69,10 @@ Na pós-graduação, a avaliação será feita em função de um projeto de pesq
 
 --->
 
-### Plano de Ensino
+### Cronograma de Aulas
 
 **Atenção!** 
-*Este plano de ensino está sujeito a alterações durante o semestre, visite frequentemente a página para obter a versão mais atualizada, ou acompanhe os updates no repositório.*
+*Este plano de aulas está sujeito a alterações durante o semestre, visite frequentemente a página para obter a versão mais atualizada, ou acompanhe os updates no repositório.*
 
 | # | Data | Assunto | Observação |
 |:---:|:----:|:----------------------:|:----------------------|
