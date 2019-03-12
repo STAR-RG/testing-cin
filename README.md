@@ -1,5 +1,5 @@
 # Teste de Software <br> [Centro de Informática](http://www.cin.ufpe.br), [UFPE](http://www.ufpe.br) 
-### Professor: Marcelo d'Amorim ([web](http://cin.ufpe.br/~damorim/), damorim@cin.ufpe.br)
+### Professor: [Marcelo d'Amorim](http://cin.ufpe.br/~damorim/)
 <hr>
 
 <img src="img/scared-bug-clipart-1.jpg" height=200 class="img-responsive" alt="Odeio teste de software!"></div>
@@ -8,14 +8,6 @@
 ### Instrutores
 -->
 
-
-
-<!--
-* **Monitores** 
-  * Felipe Cavalcanti Guerra Ramos
-  * Marco Polo Munt Rocha
--->  
-  
 ### Horário e Local das Aulas
 * Terças (10-12h) e Quintas (10-12h), sala D222
 
