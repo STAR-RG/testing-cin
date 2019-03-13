@@ -8,7 +8,7 @@
 ### Teste de Software é uma atividade de Engenharia de Software extremamente importante.
 -->
 
-Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados. 2019.1 --> pós 
+Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados.<br> 2019.1 --> pós 
 
 ### Horário e Local das Aulas em 2019.1
 * Terças (10-12h) e Quintas (10-12h), sala D222
