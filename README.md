@@ -5,11 +5,10 @@
 <img src="img/scared-bug-clipart-1.jpg" height=200 class="img-responsive" alt="Odeio teste de software!"></div>
 
 <!--
-### Instrutores
+### Teste de Software é uma atividade de Engenharia de Software extremamente importante.
 -->
 
-### Teste de Software é uma atividade de Engenharia de Software extremamente importante. Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados. 
-
+Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados. Este semestre, a disciplina é ministrada na pós.
 
 ### Horário e Local das Aulas em 2019.1
 * Terças (10-12h) e Quintas (10-12h), sala D222
