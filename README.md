@@ -2,7 +2,7 @@
 ### Professor: [Marcelo d'Amorim](http://cin.ufpe.br/~damorim/)
 <hr>
 
-<img src="img/scared-bug-clipart-1.jpg" height=200 class="img-responsive" alt="Odeio teste de software!"></div>
+![Odeio teste de software!](https://raw.githubusercontent.com/damorim/testing-cin/master/img/scared-bug-clipart-1.jpg)
 
 <!--
 ### Teste de Software é uma atividade de Engenharia de Software extremamente importante.
