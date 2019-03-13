@@ -8,20 +8,43 @@
 ### Instrutores
 -->
 
-### Horário e Local das Aulas
+### Teste de Software é uma atividade de Engenharia de Software extremamente importante. Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados. 
+
+
+### Horário e Local das Aulas em 2019.1
 * Terças (10-12h) e Quintas (10-12h), sala D222
 
 ### Repositório GitHub
 - http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
+### Objetivos
+
+Os objetivos desta disciplina, quando ministrada na graduação e pós-graduação, são diferentes. Na graduação, o material teórico (ver [slides](/slides.pptx)) é coberto de maneira mais detalhada, em cerca de oito semanas enquanto que na pós-graduação, o material teórico é coberto em apenas duas semanas. Na graduação, a ênfase é na compreensão dos conceitos básicos e no conhecimento de ferramentas usadas na prática industrial. Na pós-graduação, a ênfase é no treinamento do aluno para resolver problemas de pesquisa na área. 
+
+
 ### Ementa
 
-Teste de Software é uma atividade de Engenharia de Software extremamente importante. Este curso tem como objetivo transmitir princípios e conceitos associados ao Teste de Software. O curso é oferecido na graduação e na pós-graduação, em semestres alternados. Apesar das duas versões da disciplinas cobrirem o mesmo material teórico (ver [slides](/slides.pptx)), a intensidade da discussão deste material é diferente em cada versão do curso. Os objetivos de cada versão da disciplina também são diferentes. Na graduação, o material teórico é coberto de maneira mais detalhada, em cerca de oito semanas, e a ênfase da disciplina é em ferramentas usadas na prática industrial. Na pós-graduação, o mesmo material teórico é coberto em duas semanas e a ênfase é em problemas de pesquisa na área. 
+A ementa da parte téorica inclui os seguintes tópicos:
+
+* conceitos básicos sobre teste e depuração de software
+* como escrever um bug report
+* o caso de teste 
+  * entrada, asserção, test harness (setup, teardown)
+  * demosntração com JUnit
+* controle de versão e testes
+  * demonstração git bisect
+  * demonstração integração contínua com Travis
+* critérios de adequação
+  * estrutural, lógico, baseado em fluxo de dados, e baseado em erros
+* teste funcional
+  * particionamento de domínio
+  * análise de fronteira
+  * seleção de amostras (teste combinatorial)
 
 
 ### Metodologia
 
-Na pós-graduação, a avaliação será feita em função de um projeto de pesquisa. Cada aluno (ou par) escolherá um projeto, definido pelo professor. O escopo do projeto é compatível com a duração do curso---o aluno receberá créditos logo ao término do semestre. Importante destacar que o projeto, a princípio, possui potencial de publicação, mas não há obrigação de publicação (até porque não há garantia de se obter bons resultados). Caso o aluno queira publicar o trabalho, provavelmente terá que, voluntariamente e com apoio do orientador, investir um pouco mais de esforço após término do período. O professor irá ajudar ativamente cada grupo, fornecendo as ferramentas necessárias para realização do projeto (por exemplo, scripts e "datasets"). A lista de projetos (cinco a seis opções) será definida pelo professor e criticada durantes as aulas.
+Na pós-graduação, a avaliação será feita em função de um projeto de pesquisa. Cada aluno (ou par) escolherá um projeto, definido pelo professor. O escopo de cada projeto é compatível com a duração do curso---o aluno receberá créditos logo ao término do semestre. Importante destacar que o projeto, a princípio, possui potencial de publicação, mas não há obrigação de publicação (até porque não há garantia de se obter bons resultados). Caso o aluno queira publicar o trabalho, provavelmente terá que, voluntariamente e com apoio do orientador, investir um pouco mais de esforço após término do período. O professor irá ajudar ativamente cada grupo, fornecendo as ferramentas necessárias para realização do projeto (por exemplo, scripts e "datasets"). A lista de projetos (cinco a seis opções) será definida pelo professor e criticada durantes as aulas. A avaliação será feita baseada nas entregas (três a quatro) e no acompanhamento das atividades (na sala do professor).
 
 ### Bibliografia
 - [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/). Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler <b>(online)</b>
