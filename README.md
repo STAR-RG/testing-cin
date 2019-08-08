@@ -1,64 +1,93 @@
-# testing-cin
+# Teste de Software <br> [Centro de Informática](http://www.cin.ufpe.br), [UFPE](http://www.ufpe.br) 
+### Professor: [Marcelo d'Amorim](http://cin.ufpe.br/~damorim/)
+<hr>
 
-List of tools we see in this course, grouped by categories.  For
-example, you will find under directory "median" an example on how to
-use the gradle build system.<br>
+![Odeio teste de software!](https://raw.githubusercontent.com/damorim/testing-cin/master/img/scared-bug-clipart-1.jpg)
 
-------------
-Basic
-------------
+<!--
+### Teste de Software é uma atividade de Engenharia de Software extremamente importante.
+-->
 
-<p><b>Build Systems</b><br>
-&nbsp;&nbsp;&nbsp;ant: demo/basics/texasholdem<br>
-&nbsp;&nbsp;&nbsp;gradle: demo/basics/median<br>
-</p>
+Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados.<br> 2019.1 --> pós 
 
-<p><b>Test Execution</b><br>
-&nbsp;&nbsp;&nbsp;junit4: demo/basics/median<br>
-</p>
+### Horário e Local das Aulas em 2019.1
+* Terças (10-12h) e Quintas (10-12h), sala D222
 
-<p><b>Fluent Assertions</b><br>
-&nbsp;&nbsp;&nbsp;hamcrest: demo/basics/binarysearch<br>
-</p>
+### Repositório GitHub
+- http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
-<p><b>Test Suite Quality</b><br>
-<!-- indent this please -->
-<p>Coverage<br>
-   &nbsp;&nbsp;&nbsp;jacoco: demo/basics/doublelinkedlist<br>
-</p>
-<p>Mutation<br>
-&nbsp;&nbsp;&nbsp;pit: demo/basics/triangle<br>
-</p>
+### Objetivos
 
-</p>
-
-<p><b>Functional Testing</b><br>
-&nbsp;&nbsp;&nbsp;pairwise: demo/basics/pairwise<br>
-</p>
-
-------------
-Advanced
-------------
-
-<p><b>GUI Testing</b><br>
-&nbsp;&nbsp;&nbsp;assertj+swing: demo/advanced/assertj+swing<br>
-&nbsp;&nbsp;&nbsp;selenium: demo/advanced/selenium<br>
-&nbsp;&nbsp;&nbsp;android-espresso: demo/advanced/android-espresso<br>
-</p>
-
-<p><b>Load Testing</b><br>
-&nbsp;&nbsp;&nbsp;JMeter: demo/advanced/jmeter<br>
-</p>
-
-<p><b>DevOps</b><br>
-&nbsp;&nbsp;&nbsp;Docker: demo/advanced/docker<br>
-&nbsp;&nbsp;&nbsp;Vagrant: demo/advanced/vagrant-tutorial<br>
-</p>
-
-<p><b>JavaScript</b><br>
-&nbsp;&nbsp;&nbsp;QUnit: demo/advanced/qunit<br>
-</p>
+Os objetivos desta disciplina, quando ministrada na graduação e pós-graduação, são diferentes. Na graduação, o material teórico (ver [slides](/slides.pptx)) é coberto de maneira mais detalhada, em cerca de oito semanas enquanto que na pós-graduação, o material teórico é coberto em apenas duas semanas. Na graduação, a ênfase é na compreensão dos conceitos básicos e no conhecimento de ferramentas usadas na prática industrial. Na pós-graduação, a ênfase é no treinamento do aluno para resolver problemas de pesquisa na área. 
 
 
-Enjoy,<br>
-Marcelo
+### Ementa
+
+A ementa da parte téorica inclui os seguintes tópicos:
+
+* conceitos básicos sobre teste e depuração de software
+* como escrever um bug report
+* o caso de teste 
+  * entrada, asserção, test harness (setup, teardown)
+  * demosntração com JUnit
+* controle de versão e testes
+  * demonstração git bisect
+  * demonstração integração contínua com Travis
+* critérios de adequação
+  * estrutural, lógico, baseado em fluxo de dados, e baseado em erros
+* teste funcional
+  * particionamento de domínio
+  * análise de fronteira
+  * seleção de amostras (teste combinatorial)
+
+
+### Metodologia
+
+Na pós-graduação, a avaliação será feita em função de um projeto de pesquisa. Cada aluno (ou par) escolherá um projeto, definido pelo professor. O escopo de cada projeto é compatível com a duração do curso---o aluno receberá créditos logo ao término do semestre. Importante destacar que o projeto, a princípio, possui potencial de publicação, mas não há obrigação de publicação (até porque não há garantia de se obter bons resultados). Caso o aluno queira publicar o trabalho, provavelmente terá que, voluntariamente e com apoio do orientador, investir um pouco mais de esforço após término do período. O professor irá ajudar ativamente cada grupo, fornecendo as ferramentas necessárias para realização do projeto (por exemplo, scripts e "datasets"). A lista de projetos (cinco a seis opções) será definida pelo professor e criticada durantes as aulas. A avaliação será feita baseada nas entregas (três a quatro) e no acompanhamento das atividades (na sala do professor).
+
+### Bibliografia
+- [Generating Software Tests: Breaking Software for Fun and Profit](https://www.fuzzingbook.org/). Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler <b>(online)</b>
+- Software Testing and Analysis. Mauro Pezze and Michal Young, Wiley, 2008  
+- Why Programs Fail?. Andreas Zeller, Morgan Kaufmann 2009 (2nd edition)
+- Software Testing. Glenford Myers, Wiley, 2004 (2nd edition)
+
+<!---
+### Recursos
+
+- [Google Classroom](http://classroom.google.com) - Código:  5ub3mb5
+
+
+### Ferramentas
+- [Antlr (ANother Tool for Language Recognition)](https://www.antlr.org/)
+- [LLVM](https://llvm.org/)
+
+### Avaliação
+* (`N1`+`N2`)/2, onde:
+  * `N1` = `Prova1` (70%) + `Aulas práticas` (30%)
+    * `Prova1` = Teste com [assunto dado até o momento
+    * `Aulas práticas` = 3 Tarefas passadas durante primeira unidade
+  * `N2` = `Prova2` (70%) + `Mini projeto` (30%)
+    * `Prova2` = Teste com [assunto dado a partir de Prova1 
+    * `Mini Projeto` = Projeto da cadeira
+* `Final`: Teste com todo o assunto da matéria
+
+- Observação:
+  - Trabalhos **“CTRL-C + CTRL-V”** terão nota **zero** (vale tanto para cópia de colegas, como para trabalhos copiados da internet).
+
+### Provas anteriores
+- [Clique aqui](/provas)
+
+### Notas
+- [Clique aqui](alunos.md)
+
+--->
+
+### Cronograma de Aulas
+
+**Atenção!** 
+*Este plano de aulas está sujeito a alterações durante o semestre, visite frequentemente a página para obter a versão mais atualizada, ou acompanhe os updates no repositório.*
+
+| # | Data | Assunto | Observação |
+|:---:|:----:|:----------------------:|:----------------------|
+| 01 | 12/03/2019 | Apresentação da disciplina | Apresentação da metodologia de ensino e de avaliação que será usada no curso. O material teórico não começou a ser visto. Apenas Alex na sala. |
+| 02 | 14/03/2019 | Teste versus depuração.<br> Falta versus falha.<br> Como escrever um bug report.<br> Caso de teste (com JUnit).<br>[slides](/slides.pptx) |   |

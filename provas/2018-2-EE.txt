@@ -1,0 +1,61 @@
+IF1009 - Teste e Validação de Software
+Sistemas de Informação, Universidade Federal de Pernambuco
+Prof. Marcelo d'Amorim
+
+1 [1 pontos]. Qual a vantagem e desvantagem de se usar teste
+caixa-preta versus teste caixa-branca?
+
+
+
+
+
+
+
+2 [1 pontos]. Para que serve o teste de integração contínua?
+
+
+
+
+
+
+
+3 [1 pontos]. Explique o teste de mutação.
+
+
+
+
+
+
+
+4 [2 pontos]. Construa uma suíte de teste adequada a MCDC considerand
+o trecho de código abaixo.
+
+   if (a && (b || c) && d) ...
+
+
+
+
+
+
+
+
+
+
+5 [3 pontos]. Construa uma suíte de teste adequada a "Pairwise"
+("2-wise") para a função abaixo, considerando os seguintes domínios
+A={1_A, 2_A}, B={1_B, 2_B, 3_B}, e C={1_C, 2C}.
+
+   bar(A a, B b, C c)
+
+
+
+
+
+
+
+
+
+
+6 [2 pontos]. Como contratos (p. ex., especificações JML) podem ajudar
+a detectar bugs prematuramente no processo de desenvolvimento?
+

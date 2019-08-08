@@ -63,4 +63,22 @@ public class DoubleLinkedListTest {
         dll.remove(1);
     }    
 
+    @Test
+    public void testIndexOf() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.add(1);
+        dll.add(2);
+        dll.add(null);        
+        Assert.assertEquals(2, dll.indexOf(null));
+    }
+
+    @Test
+    public void testIndexOf2() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.add(1);
+        dll.add(null);        
+        dll.add(2);
+        Assert.assertEquals(-1, dll.indexOf(3));
+    }        
+
 }
