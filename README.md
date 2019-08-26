@@ -17,7 +17,7 @@ Esta disciplina é oferecida na graduação e na pós-graduação, em semestres 
 - http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
 ### Google Classroom
-- [Link] (https://classroom.google.com/u/1/c/MjA4MjcxMTAwMjla?hl=pt_BR), Código k005sl3
+- [Link](https://classroom.google.com/u/1/c/MjA4MjcxMTAwMjla?hl=pt_BR), Código k005sl3
 
 ### Objetivos
 
