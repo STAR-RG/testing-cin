@@ -72,7 +72,14 @@ public class tritypTest {
 
     @Test
     public void testNotTriangle11() {
-        Assert.assertEquals(trityp.type(3,1,1), 4);
+        int v = trityp.type(3,1,1);
+        Assert.assertEquals(v, 4);
+    }
+
+    @Test
+    public void testNotTriangle12() {
+        int v = trityp.type(1,2,2);
+        Assert.assertEquals(v, 2);
     }
     
 
