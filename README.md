@@ -16,6 +16,9 @@ Esta disciplina é oferecida na graduação e na pós-graduação, em semestres 
 ### Repositório GitHub
 - http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
 
+### Google Classroom
+- [Link](https://classroom.google.com/u/1/c/MjA4MjcxMTAwMjla?hl=pt_BR), Código k005sl3
+
 ### Objetivos
 
 Os objetivos desta disciplina, quando ministrada na graduação e pós-graduação, são diferentes. Na graduação, o material teórico (ver [slides](/slides.pptx)) é coberto de maneira mais detalhada, em cerca de oito semanas enquanto que na pós-graduação, o material teórico é coberto em apenas duas semanas. Na graduação, a ênfase é na compreensão dos conceitos básicos e no conhecimento de ferramentas usadas na prática industrial. Na pós-graduação, a ênfase é no treinamento do aluno para resolver problemas de pesquisa na área. 
