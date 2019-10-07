@@ -20,8 +20,8 @@ public class TesteSimples {
 
   @Before
   public void setUp() throws Exception {
-    //this.driver = new HtmlUnitDriver();
-    this.driver = new FirefoxDriver();
+    this.driver = new HtmlUnitDriver();
+    //this.driver = new FirefoxDriver();
     this.driver.manage().window().maximize();
   }
 
