@@ -1,0 +1,143 @@
+Prova Final de Testes IF1009
+Prof. Marcelo d'Amorim
+Recife, 10 de Dezembro de 2019
+
+1. [2 pontos] Qual a diferença entre
+
+ - Falta e falha?
+
+A falta é a manifestação de um bug, que está presente no código, no
+estado de um programa em execução. A execução do program exercitou um
+comando defeituoso e construiu este estado incorreto. Importante é
+compreender que a execução do programa não é necessariamente
+interrompida por conta de uma falta.
+
+A falha é a observação de um estado defeituoso. Por exemplo, a
+observação de um exceção, que interrompe a execução normal de um
+teste.
+
+ - Teste e depuração?
+
+Teste é a atividade que identica a presença de bugs em código. Mais
+precisamente, a atividade de Teste tem como resposabilidade construir
+cenários de execução que revelam falhas, que denunciam a presença de
+bugs no código. Teste não diz onde os bugs estão.
+
+Depuração é a atividade de descobrir, a partir de uma execução que
+falha, as possíveis causas da falha no código.
+
+2. [2.5 pontos] O que é teste de mutação? Demonstre através de exemplo.
+
+** objetivo **
+Teste de mutação é uma técnica que tem como objetivo avaliar a
+qualidade de uma suíte de testes. A técnica vai dar uma nota---o score
+de mutação---dando um valor estimado para a qualidade de uma
+determinada suíte de teste. Assume-se que uma suíte de teste com uma
+nota alta é uma suíte mais capacitada para detectar erros reais, que
+seriam introduzidos durante o desenvolvimento.
+
+** funcionamento **
+O teste de mutação introduz erros artificialmente no código e avalia
+se a suíte é capaz de capturar aqueles erros. Ou seja, se a suíte vai
+sinalizar a presença ou não daqueles problemas. Estes erros são
+caracterizados a partir de pequenas mudanças no código, chamadas de
+mutantes.
+
+Exemplo de funcionamento:
+
+int foo(int i, int j)
+ if (i > j)
+   return i + j
+ else
+   return i
+
+@Test
+void testUm()
+ assertEquals(10, foo(10,10))
+
+Mutante 1: Troca > por >=
+Mutante 2: Troca + por -
+
+Neste cenário, há apenas um caso de teste na suíte. Os testes
+conseguem matar o mutante 1, mas não conseguem matar o mutante
+2. Ciente que a suíte de testes está deficiente, o desenvolvedor
+constrói mais o teste abaixo para matar o mutante 2. 
+
+@Test
+void testDois()
+ assertEquals(30, foo(20,10))
+
+
+3. [2.5 pontos] Explique pairwise testing.
+
+É uma técnica de teste combinatorial (teste funcional) que tem como
+objetivo evitar explosão combinatorial ao se considerar todas as
+combinações de todos os parâmetros de uma função. Uma suíte de testes
+adequada a critério de cobertura pairwise deve cobrir todas as
+combinações entre pares de parâmetros.
+
+Exemplo:
+
+Parametros da Função a ser testada:
+  Firefox(URL url, LIN lin, SO so, AFL adobeFlash)
+
+Domínios dos parâmetros da função:
+  URL={lh, rh, na}
+  LIN={po, in}
+  SO={win, linux, mac}
+  AFL={sim, nao}
+
+Pares de parâmetros e requisitos de teste:
+ URL-LIN
+   lh-po OK
+   lh-in OK
+   rh-po
+   rh-in
+   na-po
+   na-in
+ URL-SO
+   lh-win OK
+   lh-linux OK
+   lh-mac
+   rh-win
+   rh-linux
+   rh-mac   
+   na-win
+   na-linux
+   na-mac   
+ URL-AFL
+   lh-sim OK
+   lh-nao OK
+   rh-sim
+   rh-nao
+   na-sim
+   na-nao
+ LIN-SO
+   po-win OK
+   po-linux
+   po-mac
+   in-win 
+   in-linux OK
+   in-mac   
+ LIN-AFL
+   po-sim OK
+   po-nao
+   in-sim
+   in-nao OK
+ SO-AFL
+   win-sim OK
+   win-nao 
+   linux-sim
+   linux-nao OK
+   mac-sim
+   mac-nao
+
+Firefox(URL url, LIN lin, SO so, AFL adobeFlash)
+URL, LIN, SO, AFL
+lh, po, win, sim
+lh, in, linux, nao
+
+4. [3 pontos] Explique o que é JML e como pode ser usado para
+encontrar bugs.
+
+JML é uma linguage de especificação de APIs para Java.
