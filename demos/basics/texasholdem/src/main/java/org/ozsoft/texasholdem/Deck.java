@@ -87,7 +87,7 @@ public class Deck {
      * @return  the card dealt
      */
     public Card deal() {
-        if (nextCardIndex + 1 >= NO_OF_CARDS) {
+        if (nextCardIndex + 1 > NO_OF_CARDS) {
             throw new IllegalStateException("No cards left in deck");
         }
         return cards[nextCardIndex++];
@@ -110,7 +110,7 @@ public class Deck {
         if (noOfCards < 1) {
             throw new IllegalArgumentException("noOfCards < 1");
         }
-        if (nextCardIndex + noOfCards >= NO_OF_CARDS) {
+        if (nextCardIndex + noOfCards > NO_OF_CARDS) {
             throw new IllegalStateException("No cards left in deck");
         }
         List<Card> dealtCards = new ArrayList<Card>();
@@ -134,7 +134,7 @@ public class Deck {
      *             If there are no cards left in the deck.
      */
     public Card deal(int rank, int suit) {
-        if (nextCardIndex + 1 >= NO_OF_CARDS) {
+        if (nextCardIndex + 1 > NO_OF_CARDS) {
             throw new IllegalStateException("No cards left in deck");
         }
         Card card = null;
