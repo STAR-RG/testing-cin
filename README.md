@@ -61,14 +61,15 @@ A ementa da parte téorica inclui os seguintes tópicos:
 |:---:|:----:|:----------------------:|:----------------------|
 | 01 | 10/03/2020 | Visão geral da disciplina. | |
 | 02 | 12/03/2020 | Definições: Falta versus falha, Teste versus depuração, e os vários tipos de teste. |   |
-| 03 | 17/03/2020 | Framework de testes. Demo: JUnit + Python unittest |  |
-| 04 | 19/03/2020 | Sistemas de build. Demo: Gradle |  |
-| 05 | 24/03/2020 | Cobertura. Demo: Jacoco |  |
-| 06 | 26/03/2020 | Teste de mutação. Demo: PIT |  |
-| 06 | 31/03/2020 | Teste combinatorial. Demo: ACTS |  |
-| 07 | 02/04/2020 | "Behavior-Driven Development". Demo: Cucumber |  |
-| 08 | 07/04/2020 | UI Testing. Demo: Selenium, Watir |  |
-| 09 | 09/04/2020 | Fuzzing. Demo: AFL |  |
+| 03 | 17/03/2020 | Framework de testes. <b>Demo</b>: JUnit + Python unittest |  |
+| 04 | 19/03/2020 | Sistemas de build. <b>Demo</b>: Gradle |  |
+| 05 | 24/03/2020 | Cobertura. <b>Demo</b>: Jacoco |  |
+| 06 | 26/03/2020 | Teste de mutação. <b>Demo</b>: PIT |  |
+| 06 | 31/03/2020 | Teste combinatorial. <b>Demo</b>: ACTS |  |
+| 07 | 02/04/2020 | "Behavior-Driven Development". <b>Demo</b>: Cucumber |  |
+| 08 | 07/04/2020 | UI Testing. <b>Demo</b>: Selenium, Watir |  |
+| 09 | 09/04/2020 | Fuzzing. <b>Demo</b>: AFL |  |
 | 10 | 14/04/2020| Prova | - |
-| ... | ... | Seminários | ... |
-| ... | ... | Apresentação de projetos | ... |
+| - | -| Seminários | - |
+...
+| - | - | Apresentação de projetos | - |
