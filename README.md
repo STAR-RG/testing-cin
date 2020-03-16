@@ -71,5 +71,4 @@ A ementa da parte téorica inclui os seguintes tópicos:
 | 09 | 09/04/2020 | Fuzzing. <b>Demo</b>: AFL |  |
 | 10 | 14/04/2020| Prova | - |
 | - | -| Seminários | - |
-...
 | - | - | Apresentação de projetos | - |
