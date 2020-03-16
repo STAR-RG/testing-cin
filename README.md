@@ -59,7 +59,7 @@ A ementa da parte téorica inclui os seguintes tópicos:
 
 | # | Data | Assunto | Vídeos |
 |:---:|:----:|:----------------------:|:----------------------|
-| 01 | 10/03/2020 | Apresentação da metodologia de ensino e avaliação. | |
+| 01 | 10/03/2020 | Visão geral da disciplina. | |
 | 02 | 12/03/2020 | Definições: Falta versus falha, Teste versus depuração, e os vários tipos de teste. |   |
 | 03 | 17/03/2020 | Framework de testes. Demo: JUnit + Python unittest |  |
 | 04 | 19/03/2020 | Sistemas de build. Demo: Gradle |  |
