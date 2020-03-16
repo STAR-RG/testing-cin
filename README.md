@@ -9,14 +9,10 @@
 ### Horário e Local das Aulas em 2019.1
 * Terças (8-10h) e Quintas (10-12h), sala E122
 
-### Repositório GitHub
-- http://github.com/damorim/testing-cin (slides, demos, provas, etc.)
-
-### Google Classroom
-- [Link](https://classroom.google.com/u/1/c/MjA4MjcxMTAwMjla?hl=pt_BR), Código efvxdml
-
-### Planilha de notas
-[Link](http://tiny.cc/6zgelz)
+### Recursos
+- [Repositório GitHub (slides, demos, provas, etc.)](http://github.com/damorim/testing-cin)
+- [Google Classroom](https://classroom.google.com/u/1/c/MjA4MjcxMTAwMjla?hl=pt_BR), Código efvxdml
+- [Planilha de notas](http://tiny.cc/6zgelz)
 
 ### Objetivos
 
