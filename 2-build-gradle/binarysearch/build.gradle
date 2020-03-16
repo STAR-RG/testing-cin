@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+   mavenCentral()         
+}
+
+dependencies {
+   testImplementation 'junit:junit:4.1', 'org.hamcrest:hamcrest-all:1.3'
+}
+
+

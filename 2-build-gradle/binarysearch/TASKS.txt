@@ -1,0 +1,14 @@
+1. [3 minutes] Add the following snippet to you build.gradle
+script. Then, run the command $> gradle printClasspath
+
+## add this to build.gradle to print classpath
+task printClasspath {
+    doLast {
+        configurations.testRuntimeClasspath.each { println it }
+    }
+}
+
+2. [15 minutes] Follow the tutorial at the link below to configure
+your build.gradle file to generate test execution logs.
+
+https://medium.com/@wasyl/pretty-tests-summary-in-gradle-744804dd676c

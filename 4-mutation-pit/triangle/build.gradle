@@ -1,0 +1,40 @@
+apply plugin: 'java' 
+
+repositories {
+   mavenCentral()         
+}
+
+dependencies {
+   testImplementation 'junit:junit:4.12', 'org.hamcrest:hamcrest-all:1.3'
+}
+
+/********************************************************
+ *                         pit
+ * See:
+ * https://plugins.gradle.org/plugin/info.solidsoft.pitest
+ * http://gradle-pitest-plugin.solidsoft.info/
+ *
+ * $> gradle pitest
+ ********************************************************/
+
+buildscript {
+    repositories {
+        mavenCentral()
+        //Needed only for SNAPSHOT versions
+        //maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    }
+    dependencies {
+        classpath 'info.solidsoft.gradle.pitest:gradle-pitest-plugin:1.4.5'
+    }
+}
+
+apply plugin: "info.solidsoft.pitest"
+
+// configuration
+pitest {
+    targetClasses = ["geometry.*"] //["${project.group}.*"] 
+    pitestVersion = '1.4.1' //not needed when a default PIT version should be used
+    threads = 4
+    outputFormats = ['XML', 'HTML']
+//    timestampedReports = false
+}

@@ -1,0 +1,36 @@
+apply plugin: 'java' 
+
+repositories {
+   mavenCentral()         
+}
+
+dependencies {
+   testImplementation 'junit:junit:4.+', 'org.hamcrest:hamcrest-all:1.3'
+}
+
+/********************************************************
+ *                   Jacoco configuration
+ *
+ * Use task "jacocoTestReport"
+ *
+ * $> gradle test jacocoTestReport
+ *
+ * For more details, see:
+ * http://gradle.org/docs/current/userguide/jacoco_plugin.html
+ * 
+ ********************************************************/
+
+apply plugin: "jacoco"
+
+jacoco {
+    toolVersion = "0.7.1.201405082137"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+/*        html.destination "${buildDir}/jacocoHtml" */
+    }
+}
