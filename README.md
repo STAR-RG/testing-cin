@@ -6,7 +6,7 @@
 
 <!--Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados.<br> 2019.1 -->
 
-### Horário e Local das Aulas em 2019.1
+### Horário e Local das Aulas 2020.1
 * Terças (8-10h) e Quintas (10-12h), sala E122
 
 ### Recursos
