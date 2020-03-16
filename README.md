@@ -20,9 +20,9 @@ O objetivo da disciplina é apresentar conceitos básicos sobre Testes de Softwa
 
 ### Forma de Avaliação
 
-Prova 20%
-Seminário 30% ([Temas](http://tiny.cc/g5helz))
-Projeto 50% (Para alunos de graduação -> [Especificação](http://tiny.cc/rxhelz))
+- Prova 20%
+- Seminário 30% ([Temas](http://tiny.cc/g5helz))
+- Projeto 50% (Para alunos de graduação -> [Especificação](http://tiny.cc/rxhelz))
 
 
 ### Ementa
