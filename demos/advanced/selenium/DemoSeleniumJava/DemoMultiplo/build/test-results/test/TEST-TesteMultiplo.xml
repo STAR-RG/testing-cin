@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TesteMultiplo" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-11-17T15:07:58" hostname="localhost.localdomain" time="7.229">
-  <properties/>
-  <testcase name="testNovoCadastroSucesso" classname="TesteMultiplo" time="2.671"/>
-  <testcase name="testNovoCadastroSucesso" classname="TesteMultiplo" time="1.606"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
