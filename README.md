@@ -60,7 +60,7 @@ A ementa da parte téorica inclui os seguintes tópicos:
 | # | Data | Assunto | Vídeos |
 |:---:|:----:|:----------------------:|:----------------------|
 | 01 | 10/03/2020 | Visão geral da disciplina. | |
-| 02 | 12/03/2020 | Definições: Falta versus falha, Teste versus depuração, e os vários tipos de teste. |   |
+| 02 | 12/03/2020 | Definições: Falta versus falha, Teste versus depuração, e os vários tipos de teste. | [specs](videos/specs.mp4)  |
 | 03 | 17/03/2020 | Framework de testes. <b>Demo</b>: JUnit + Python unittest |  |
 | 04 | 19/03/2020 | Sistemas de build. <b>Demo</b>: Gradle |  |
 | 05 | 24/03/2020 | Cobertura. <b>Demo</b>: Jacoco |  |
