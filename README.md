@@ -61,7 +61,7 @@ A ementa da parte téorica inclui os seguintes tópicos:
 |:---:|:----:|:----------------------:|:----------------------|
 | 01 | 10/03/2020 | Visão geral da disciplina. | |
 | 02 | 12/03/2020 | Definições: Falta versus falha, Teste versus depuração, e os vários tipos de teste. | [Specs](https://youtu.be/DafMDBHtwl4) |
-| 03 | 17/03/2020 | Framework de testes. <b>Demo</b>: JUnit + Python unittest | [Quiz](https://www.youtube.com/watch?v=ugTQz2HJeoM)<br>[Agenda+Test Frameworks](https://www.youtube.com/watch?v=NvNQAuoAf6s) |
+| 03 | 17/03/2020 | Framework de testes. <b>Demo</b>: JUnit + Python unittest | -[Quiz](https://www.youtube.com/watch?v=ugTQz2HJeoM)<br>-[Agenda+Test Frameworks](https://www.youtube.com/watch?v=NvNQAuoAf6s) |
 | 04 | 19/03/2020 | Sistemas de build. <b>Demo</b>: Gradle |  |
 | 05 | 24/03/2020 | Cobertura. <b>Demo</b>: Jacoco |  |
 | 06 | 26/03/2020 | Teste de mutação. <b>Demo</b>: PIT |  |
