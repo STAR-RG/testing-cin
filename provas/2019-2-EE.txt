@@ -1,0 +1,20 @@
+Prova Final de Testes IF1009
+Recife, 11 de Novembro de 2019
+
+1. [6 pontos] Defina brevemente:
+
+ - Cobertura de código
+ - Teste de caixa preta
+ - Teste de caixa branca
+ - Teste de mutação
+ - Teste de regressão
+ - Teste de integração contínua
+ - Teste de fronteira
+ - Teste de carga
+ - Teste de aceitação
+ - "Test-Driven Development" (TDD)
+
+2. [4 pontos] Explique >através de um exemplo<
+
+ - Teste de "Pairwise"
+ - MCDC

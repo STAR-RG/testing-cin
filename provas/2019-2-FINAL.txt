@@ -1,0 +1,33 @@
+Prova Final de Testes IF1009
+Prof. Marcelo d'Amorim
+Recife, 9 de Dezembro de 2019
+
+1. [2 pontos] Qual a diferença entre:
+
+ - Teste e depuração?
+ - BDD e TDD
+ 
+
+2. [2 pontos] Explique como funciona teste de integração contínua.
+
+
+3. [2 pontos] Em que situação vc. poderia aplicar pairwise testing?
+Explique como funciona.
+
+
+4. [2 pontos] Vc. trabalha em uma empresa que está desenvolvendo
+software para suportar um volume de acesso de 5 mil usuários
+simultâneos. O que vc. usaria para simular acesso de usuários, dentro
+do ambiente de desenvolvimento e antes de colocar o sistema em
+produção?
+
+
+5. [2 pontos] Vc. trabalha em uma empresa de desenvolvimento de
+software que está recebendo reclamações dos clientes que observaram
+que certa funcionalidade do sistema está executando de forma muito
+lenta.
+
+  5.1 O que vc. deve fazer para tentar descobrir a causa do problema?
+  
+  5.2 Como este tipo de problema poderia ter sido evitado durante o
+  desenvolvimento?

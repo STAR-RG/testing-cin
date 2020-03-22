@@ -3,6 +3,7 @@ package bst;
 import org.junit.Test;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -21,8 +22,9 @@ public class BinarySearchTest {
     
     @Test
     public void elementFound() {
+        int result = BinarySearch.binarySearch(a, 5);
         // junit style
-        Assert.assertEquals(2, BinarySearch.binarySearch(a, 5));
+        Assert.assertEquals(2, result);
         // hamcrest style
         assertThat(BinarySearch.binarySearch(a, 20), is(6));
     }
