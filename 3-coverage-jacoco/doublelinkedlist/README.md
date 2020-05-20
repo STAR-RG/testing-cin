@@ -4,7 +4,7 @@
 ## 2. Open the path:
 	testing-cin/3-coverage-jacoco/doublelinkedlist
 
-## 3. Do the build using the command using the terminal:
+## 3. Do the build using the command:
     gradle build
 
 ## 4. Run the class file of test in directory:
