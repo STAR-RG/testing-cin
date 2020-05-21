@@ -39,7 +39,7 @@ public class BinarySearchTest {
         assertThat(BinarySearch.binarySearch(new int[]{}, 99), is(lessThan(0)));
     }
 
-    @Test(expected=NullPointerException.class)
+    @Test(expected=IllegalArgumentException.class)
     public void nullArray() {
         BinarySearch.binarySearch(null, 99);
     }
