@@ -7,5 +7,5 @@
 ## 3. Do the build using the command:
     gradle build
 
-## 4. Run the class file of test in directory:
-	/src/test/java/DoubleLinkedListTest.java
+## 4. Run the tests using the command:
+	gradle test
