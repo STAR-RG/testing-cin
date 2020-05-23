@@ -8,9 +8,6 @@ module.exports = {
   // Stop running tests after `n` failures
   bail: 1,
 
-  // Respect "browser" field in package.json when resolving modules
-  // browser: false,
-
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "/tmp/jest_rs",
 
@@ -73,7 +70,7 @@ module.exports = {
   //   "node"
   // ],
 
-  // A map from regular expressions to module names that allow to stub out resources with a single module
+  // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
@@ -136,7 +133,7 @@ module.exports = {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-  testMatch: ["**/__tests__/**/*.test.js"]
+  testMatch: ["**/__tests__/**/*.test.js"],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
