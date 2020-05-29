@@ -8,4 +8,9 @@
     gradle build
 
 ## 4. Run the tests using the command:
-	gradle test
+	gradle test jacocoTestReport
+
+## 5. Open the results file in directory “/build/customJacocoReportDir/test/html” and open the index.html file.
+
+## For more information, see a tutorial in: http://gg.gg/jacoco
+
