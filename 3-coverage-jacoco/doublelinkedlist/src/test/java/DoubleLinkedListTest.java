@@ -11,14 +11,30 @@ public class DoubleLinkedListTest {
         dll.getFirst();
     }
 
-    
+
+    @Test
+    public void testGetLast() {
+            DoubleLinkedList dll = new DoubleLinkedList();
+            dll.add(1);
+            dll.add(3);
+            dll.add(27);
+            Assert.assertEquals(27, dll.getLast());
+    }
+
+    @Test(expected=NoSuchElementException.class)
+    public void testExceptionGetLast() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.getLast();
+    }
+
     @Test
     public void testAddOne() {
         DoubleLinkedList dll = new DoubleLinkedList();
         dll.add("one element");
         dll.getFirst();
     }
-    
+
+
     @Test
     public void testAddAll() {
         DoubleLinkedList dll = new DoubleLinkedList();
