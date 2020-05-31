@@ -81,4 +81,33 @@ public class DoubleLinkedListTest {
         Assert.assertEquals(-1, dll.indexOf(3));
     }        
 
+    @Test
+    public void testLastIndexOfNull() {
+    	DoubleLinkedList dll = new DoubleLinkedList();
+    	dll.add(0);
+    	Assert.assertEquals(-1, dll.lastIndexOf(null));
+    }
+    
+    @Test
+    public void testLastIndexOf() {
+    	DoubleLinkedList dll = new DoubleLinkedList();
+    	dll.add(0);
+    	Assert.assertEquals(0, dll.lastIndexOf(0));
+    }
+    
+    @Test
+    public void testLastIndexOfNotElement() {
+    	DoubleLinkedList dll = new DoubleLinkedList();
+    	dll.add(0);
+    	dll.add(1);
+    	dll.add(2);
+    	Assert.assertEquals(-1, dll.lastIndexOf(3));
+    }
+    
+    @Test
+    public void testLastIndexOfNull2() {
+    	DoubleLinkedList dll = new DoubleLinkedList();
+    	dll.add(null);
+    	Assert.assertEquals(0, dll.lastIndexOf(null));
+    }
 }
