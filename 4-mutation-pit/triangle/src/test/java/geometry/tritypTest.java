@@ -18,6 +18,11 @@ public class tritypTest {
     @Test
     public void testIsosceles2() {
         Assert.assertEquals(trityp.type(10,10,2), 2);
+    }
+
+    @Test
+    public void testIsosceles3() {
+        Assert.assertEquals(4 /*scalene*/, trityp.type(3,5,8));
     }    
 
     @Test
@@ -81,6 +86,6 @@ public class tritypTest {
         int v = trityp.type(1,2,2);
         Assert.assertEquals(v, 2);
     }
-    
+
 
 }

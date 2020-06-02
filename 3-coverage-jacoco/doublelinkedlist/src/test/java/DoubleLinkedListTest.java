@@ -79,6 +79,30 @@ public class DoubleLinkedListTest {
         dll.add(null);        
         dll.add(2);
         Assert.assertEquals(-1, dll.indexOf(3));
-    }        
+    }
+
+    @Test
+    public void testRemoveNull() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.add(1);
+        dll.add(null);        
+        dll.add(2);
+        Assert.assertEquals(null, dll.remove(1));
+        Assert.assertEquals(2, dll.size());        
+    }
+
+    @Test(expected=NoSuchElementException.class)
+    public void testGetLast() {
+        DoubleLinkedList dll = new DoubleLinkedList();
+        dll.add(1);
+        dll.add(null);        
+        dll.add(2);
+        Assert.assertEquals(null, dll.remove(1));
+        Assert.assertEquals(2, dll.getLast());
+        dll.remove(0);
+        dll.remove(0);
+        // dll.size() should be 0
+        dll.getLast();
+    }                
 
 }
