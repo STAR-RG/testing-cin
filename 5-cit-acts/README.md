@@ -1,11 +1,9 @@
-1. write file variables.txt with one boolean variable per line. We
-assume that the index of the variable is the line position in the file
+# ACTS Tutorial
 
-2. run $> python acts.py variables.txt
+Repository used for the ACTS tutorial that can be found [here](https://medium.com/@garaujobritto/automated-combinatorial-testing-for-software-acts-tutorial-177168dd8ee0).
 
-3. read test suite in output_formatted.txt
-
-4. try using $> java -jar acts_cmd.jar
+Student:
+[Gabriela Araujo Britto](https://github.com/gabritto)
 
 ---
 Useful Links:
