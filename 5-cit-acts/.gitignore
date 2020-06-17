@@ -3,3 +3,4 @@ output.txt
 output_formatted.txt
 *.log
 \#*
+__pycache__/
