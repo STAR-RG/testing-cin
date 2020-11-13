@@ -1,7 +1,0 @@
-[System]
--- specify system name
-Name: DOES_NOT_MATTER
-[Parameter]
-SCREEN_SIZE (boolean): TRUE, FALSE
-RESOLUTION (boolean): TRUE, FALSE
-COLOR (boolean): TRUE, FALSE
