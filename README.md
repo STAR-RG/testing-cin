@@ -14,19 +14,19 @@
 - [Google Classroom](https://classroom.google.com/u/1/c/NTM2NjMzODA2MzRa), Código efvxdml
 - [Demos](https://github.com/damorimRG/practical_testing_book/tree/master/demos)
 - [Videos](https://www.youtube.com/playlist?list=PLFBNFAddO-xtGVJjiZACr-H3dpPn8zam7)
-- Provas e Slides (neste repo)
+- [Provas e Slides](https://github.com/damorimRG/testing-cin)
 <!--- [Planilha de notas](http://tiny.cc/6zgelz)-->
 
 ### Objetivos
 
 O objetivo da disciplina é apresentar conceitos básicos sobre Testes de Software. A disciplina tem um enfoque prático--o instrutor apresentará os conceitos usando ferramentas populares na indústria.
 
+<!---
 ### Forma de Avaliação
-
 - Prova 20%
 - Seminário 30% ([Temas](http://tiny.cc/g5helz))
 - Projeto 50% (Para alunos de graduação -> [Especificação](http://tiny.cc/rxhelz))
-
+--->
 
 ### Ementa
 
