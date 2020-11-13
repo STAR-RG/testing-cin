@@ -52,6 +52,8 @@ A ementa da parte téorica inclui os seguintes tópicos:
 - Software Testing. Glenford Myers, Wiley, 2004 (2nd edition)
 
 
+<!---
+
 ### Cronograma de Aulas
 
 **Atenção!** 
@@ -70,6 +72,8 @@ A ementa da parte téorica inclui os seguintes tópicos:
 | 08 | 07/04/2020 | UI Testing. <b>Demo</b>: Selenium, Watir |  |
 | 09 | 09/04/2020 | Fuzzing. <b>Demo</b>: AFL |  |
 | 10 | 14/04/2020| Prova | - |
+
+-->
 
 <!--
 | - | -| Seminários | - |
