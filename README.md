@@ -10,9 +10,11 @@
 * Terças (8-10h) e Quintas (10-12h), sala E122
 
 ### Recursos
-- [Repositório GitHub (slides, demos, provas, etc.)](http://github.com/damorim/testing-cin)
+- [Livro)](https://damorimrg.github.io/practical_testing_book/intro.html)
 - [Google Classroom](https://classroom.google.com/u/1/c/NTM2NjMzODA2MzRa), Código efvxdml
-- [Planilha de notas](http://tiny.cc/6zgelz)
+- [Demos](https://github.com/damorimRG/practical_testing_book/tree/master/demos)
+- Provas (neste repo)
+<!--- [Planilha de notas](http://tiny.cc/6zgelz)--:
 
 ### Objetivos
 
