@@ -1,8 +1,0 @@
-[System]
--- specify system name
-Name: Important System
-[Parameter]
-pressure (int): 5, 10, 15
-volume (int): 200, 300, 400
-velocity (int): 1, 2, 3, 4, 5
-low_fuel (boolean): True, False

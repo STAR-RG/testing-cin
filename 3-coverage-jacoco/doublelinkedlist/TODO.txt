@@ -1,3 +1,0 @@
-Greatly appreciate if you find how to compute (using Gradle) coverage
-information per test file as opposed to the entire test suite, which
-is the common case.

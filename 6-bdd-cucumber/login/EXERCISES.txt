@@ -1,3 +1,0 @@
-1. Implement the skipped scenario
-
-2. Create adn implement a new scenario (after login)

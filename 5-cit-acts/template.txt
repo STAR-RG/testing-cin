@@ -1,4 +1,0 @@
-[System]
--- specify system name
-Name: DOES_NOT_MATTER
-[Parameter]
