@@ -10,7 +10,7 @@
 * Terças (8-10h) e Quintas (10-12h), sala E122
 
 ### Recursos
-- [Nosso Livro Online: The Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html)
+- Nosso Livro Online: [The Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html)
 - [Google Classroom](https://classroom.google.com/u/1/c/NTM2NjMzODA2MzRa), Código efvxdml
 - [Demos](https://github.com/damorimRG/practical_testing_book/tree/master/demos)
 - [Videos](https://www.youtube.com/playlist?list=PLFBNFAddO-xtGVJjiZACr-H3dpPn8zam7)
