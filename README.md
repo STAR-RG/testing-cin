@@ -11,7 +11,7 @@
 
 ### Recursos
 - Nosso Livro Online: [The Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html)
-- [Google Classroom](https://classroom.google.com/u/0/c/MTQ4MjEyNzA1OTY2), Código rguiqcu
+- [Google Classroom](https://classroom.google.com/u/0/c/MTQ4MjEyNzA1OTY2), Código dbfyjpe
 - [Demos](https://github.com/damorimRG/practical_testing_book/tree/master/demos)
 - [Playlist Youtube](https://www.youtube.com/playlist?list=PLFBNFAddO-xtGVJjiZACr-H3dpPn8zam7)
 - [Slides](https://github.com/damorimRG/testing-cin/blob/master/testing-minicourse.pptx)
