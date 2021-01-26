@@ -6,15 +6,16 @@
 
 <!--Esta disciplina é oferecida na graduação e na pós-graduação, em semestres alternados.<br> 2019.1 -->
 
-### Horário e Local das Aulas 2020.1
-* Terças (8-10h) e Quintas (10-12h), sala E122
+### Horário e Local das Aulas
+* Terças (8-10h) e Quintas (10-12h)
 
 ### Recursos
 - Nosso Livro Online: [The Practical Testing Book](https://damorimrg.github.io/practical_testing_book/intro.html)
 - [Google Classroom](https://classroom.google.com/u/0/c/MTQ4MjEyNzA1OTY2), Código rguiqcu
 - [Demos](https://github.com/damorimRG/practical_testing_book/tree/master/demos)
-- [Videos Youtube](https://www.youtube.com/playlist?list=PLFBNFAddO-xtGVJjiZACr-H3dpPn8zam7)
-- [Provas e Slides](https://github.com/damorimRG/testing-cin)
+- [Playlist Youtube](https://www.youtube.com/playlist?list=PLFBNFAddO-xtGVJjiZACr-H3dpPn8zam7)
+- [Slides](https://github.com/damorimRG/testing-cin/blob/master/testing-minicourse.pptx)
+- [Provas](https://github.com/damorimRG/testing-cin/tree/master/provas)
 <!--- [Planilha de notas](http://tiny.cc/6zgelz)-->
 
 ### Objetivos
