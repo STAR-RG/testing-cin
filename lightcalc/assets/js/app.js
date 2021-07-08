@@ -1,0 +1,1 @@
+angular.module('LightCalc', ['ngRoute', 'ngResource', 'ngMessages', 'ui.bootstrap.showErrors'])
